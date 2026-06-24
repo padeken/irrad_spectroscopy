@@ -1,31 +1,58 @@
 """Core analysis functions for gamma spectroscopy."""
-import numpy as np
+
 from pathlib import Path
 
-from irrad_spectroscopy.spec_utils import (
-    get_isotope_info, read_spe, read_gcal, read_geff,
-    detect_detector, get_measurement_date, find_best_calibration,
-    rough_calibration_from_peaks, find_spe_files,
-)
-from irrad_spectroscopy.spectroscopy import interpolate_bkg, subtract_background, fit_peak
-from irrad_spectroscopy.physics import calculate_activity_and_dose
-from irrad_spectroscopy.strlschv import check_strlschv
-from irrad_spectroscopy.report import generate_peak_report
+import numpy as np
 
+from irrad_spectroscopy.physics import calculate_activity_and_dose
+from irrad_spectroscopy.report import generate_peak_report
+from irrad_spectroscopy.spec_utils import (
+    detect_detector,
+    find_best_calibration,
+    find_spe_files,
+    get_isotope_info,
+    get_measurement_date,
+    read_gcal,
+    read_geff,
+    read_spe,
+    rough_calibration_from_peaks,
+)
+from irrad_spectroscopy.spectroscopy import (
+    fit_peak,
+    interpolate_bkg,
+    subtract_background,
+)
+from irrad_spectroscopy.strlschv import check_strlschv
 
 # Natural background isotopes not in database
 NATURAL_BACKGROUND = {
     "annihilation_511": 511.062,
-    "214_Bi_0": 1764.5,   # U-238 decay chain
-    "214_Pb_0": 351.9,    # U-238 decay chain
-    "208_Tl_0": 2614.5,   # Th-232 decay chain
+    "214_Bi_0": 1764.5,  # U-238 decay chain
+    "214_Pb_0": 351.9,  # U-238 decay chain
+    "208_Tl_0": 2614.5,  # Th-232 decay chain
 }
 
 DEFAULT_ISOTOPES = [
-    "48_V", "40_K", "137_Cs", "214_Bi", "214_Pb", "208_Tl",
-    "22_Na", "54_Mn", "60_Co", "65_Zn", "59_Fe", "56_Co",
-    "57_Co", "58_Co", "85_Sr", "108m_Ag", "110m_Ag", "134_Cs",
-    "7_Be", "79_Kr",
+    "48_V",
+    "40_K",
+    "137_Cs",
+    "214_Bi",
+    "214_Pb",
+    "208_Tl",
+    "22_Na",
+    "54_Mn",
+    "60_Co",
+    "65_Zn",
+    "59_Fe",
+    "56_Co",
+    "57_Co",
+    "58_Co",
+    "85_Sr",
+    "108m_Ag",
+    "110m_Ag",
+    "134_Cs",
+    "7_Be",
+    "79_Kr",
 ]
 
 
@@ -61,8 +88,15 @@ def collect_expected_peaks(isotope_labels=None):
     return expected_peaks
 
 
-def fit_peaks(sig_energies, net_counts, expected_peaks, cal_coeffs, energy_cal,
-              bkg_vals=None, sigma_keV=0.65):
+def fit_peaks(
+    sig_energies,
+    net_counts,
+    expected_peaks,
+    cal_coeffs,
+    energy_cal,
+    bkg_vals=None,
+    sigma_keV=0.65,
+):
     """Fit all expected peaks in the spectrum.
 
     Parameters
@@ -102,7 +136,9 @@ def fit_peaks(sig_energies, net_counts, expected_peaks, cal_coeffs, energy_cal,
         result = fit_peak(
             sig_energies.astype(float),
             net_counts.astype(float),
-            ep_energy, sigma_keV, bkg_est,
+            ep_energy,
+            sigma_keV,
+            bkg_est,
         )
 
         if result is not None:
@@ -124,9 +160,16 @@ def fit_peaks(sig_energies, net_counts, expected_peaks, cal_coeffs, energy_cal,
     return found_peaks
 
 
-def analyse_measurement(folder, calibration_path=None, background_path=None,
-                        distance=30.0, mass=100.0, isotope_labels=None,
-                        rough_calibration=False, output_dir=None):
+def analyse_measurement(
+    folder,
+    calibration_path=None,
+    background_path=None,
+    distance=30.0,
+    mass=100.0,
+    isotope_labels=None,
+    rough_calibration=False,
+    output_dir=None,
+):
     """Analyse a measurement folder.
 
     Parameters
@@ -169,17 +212,35 @@ def analyse_measurement(folder, calibration_path=None, background_path=None,
     # Auto-detect calibration
     geff_path = None
     if calibration_path is None and not rough_calibration:
-        if detector:
-            gcal_path, geff_path = find_best_calibration(
-                Path(__file__).parent.parent.parent / "Caliibrations",
-                detector, meas_date
-            )
-            if gcal_path:
-                calibration_path = str(gcal_path)
-            else:
-                rough_calibration = True
-        else:
+        # Search for calibration in multiple locations
+        search_dirs = [
+            Path.cwd() / "Caliibrations",  # Current working directory
+            Path(__file__).parent.parent.parent / "Caliibrations",
+            Path(__file__).parent.parent / "Caliibrations",  # irrad_spectroscopy/
+            Path(__file__).parent
+            / "Caliibrations",  # irrad_spectroscopy/irrad_spectroscopy/
+        ]
+
+        found = False
+        for calib_dir in search_dirs:
+            if not calib_dir.exists():
+                continue
+            if detector:
+                gcal_path, geff_path = find_best_calibration(
+                    calib_dir, detector, meas_date
+                )
+                if gcal_path:
+                    calibration_path = str(gcal_path)
+                    found = True
+                    break
+        if not found:
             rough_calibration = True
+    elif calibration_path is not None:
+        # Manual calibration specified, look for matching .geff in same directory
+        gcal_dir = Path(calibration_path).parent
+        geff_files = list(gcal_dir.glob("*.geff"))
+        if geff_files:
+            geff_path = geff_files[0]
 
     # Output directory
     if output_dir is None:
@@ -209,22 +270,29 @@ def analyse_measurement(folder, calibration_path=None, background_path=None,
     if background_path is not None:
         bg_channels, bg_counts, bg_live, bg_real = read_spe(background_path)
         if sig_live is not None and bg_live is not None:
-            net_counts, scale = subtract_background(sig_counts, bg_counts, sig_live, bg_live)
+            net_counts, scale = subtract_background(
+                sig_counts, bg_counts, sig_live, bg_live
+            )
         else:
             net_counts = sig_counts
     else:
         net_counts = sig_counts
 
-    bg_scaled = (bg_counts.astype(float) * scale).astype(int) if bg_counts is not None else None
+    bg_scaled = (
+        (bg_counts.astype(float) * scale).astype(int) if bg_counts is not None else None
+    )
 
     # Interpolate background
-    bkg = interpolate_bkg(counts=net_counts, channels=sig_channels, energy_cal=energy_cal)
+    bkg = interpolate_bkg(
+        counts=net_counts, channels=sig_channels, energy_cal=energy_cal
+    )
     bkg_vals = bkg(sig_energies)
 
     # Collect expected peaks and fit
     expected_peaks = collect_expected_peaks(isotope_labels)
-    found_peaks = fit_peaks(sig_energies, net_counts, expected_peaks, cal_coeffs,
-                           energy_cal, bkg_vals)
+    found_peaks = fit_peaks(
+        sig_energies, net_counts, expected_peaks, cal_coeffs, energy_cal, bkg_vals
+    )
 
     # Activity and dose rate
     has_efficiency = geff_path is not None and geff_path.exists()
@@ -234,16 +302,24 @@ def analyse_measurement(folder, calibration_path=None, background_path=None,
     if has_efficiency:
         eff_func, eff_energies, eff_values = read_geff(geff_path)
         activities, dose_rates, iso_activity, iso_dose = calculate_activity_and_dose(
-            found_peaks, eff_func, sig_live, distance,
-            counts=net_counts, energies=sig_energies,
+            found_peaks,
+            eff_func,
+            sig_live,
+            distance,
+            counts=net_counts,
+            energies=sig_energies,
         )
 
     # Generate report
     report_file = output_dir / f"{folder.name}_peak_review.html"
     generate_peak_report(
-        found_peaks, activities, dose_rates,
-        sig_energies.astype(float), net_counts.astype(float),
-        report_file, title=f"{folder.name} Peak Review",
+        found_peaks,
+        activities,
+        dose_rates,
+        sig_energies.astype(float),
+        net_counts.astype(float),
+        report_file,
+        title=f"{folder.name} Peak Review",
     )
 
     # StrlSchV check
@@ -253,17 +329,25 @@ def analyse_measurement(folder, calibration_path=None, background_path=None,
         # Filter to passed peaks
         iso_activity_filtered = {}
         for name, act_info in activities.items():
-            q = act_info.get('quality', {})
-            if not q.get('pass', False):
+            q = act_info.get("quality", {})
+            if not q.get("pass", False):
                 continue
-            iso = '_'.join(name.split('_')[:-1])
+            iso = "_".join(name.split("_")[:-1])
             if iso not in iso_activity_filtered:
-                iso_activity_filtered[iso] = {'activity': 0, 'activity_err_sq': 0, 'lines': []}
-            iso_activity_filtered[iso]['activity'] += act_info['activity']
-            iso_activity_filtered[iso]['activity_err_sq'] += act_info['activity_err'] ** 2
-            iso_activity_filtered[iso]['lines'].append(name)
+                iso_activity_filtered[iso] = {
+                    "activity": 0,
+                    "activity_err_sq": 0,
+                    "lines": [],
+                }
+            iso_activity_filtered[iso]["activity"] += act_info["activity"]
+            iso_activity_filtered[iso]["activity_err_sq"] += (
+                act_info["activity_err"] ** 2
+            )
+            iso_activity_filtered[iso]["lines"].append(name)
         for iso in iso_activity_filtered:
-            iso_activity_filtered[iso]['activity_err'] = np.sqrt(iso_activity_filtered[iso]['activity_err_sq'])
+            iso_activity_filtered[iso]["activity_err"] = np.sqrt(
+                iso_activity_filtered[iso]["activity_err_sq"]
+            )
 
         strl_results, sum_bg_ratio = check_strlschv(iso_activity_filtered, mass)
 

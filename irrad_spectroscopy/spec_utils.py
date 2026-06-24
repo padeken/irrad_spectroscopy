@@ -87,9 +87,7 @@ def find_best_calibration(calib_dir, detector, measurement_date):
     if not detector_dir.exists():
         return None, None
 
-    best_gcal = None
-    best_geff = None
-    best_diff = None
+    candidates = []
 
     for cal_dir in detector_dir.iterdir():
         if not cal_dir.is_dir():
@@ -113,14 +111,20 @@ def find_best_calibration(calib_dir, detector, measurement_date):
 
         gcal = gcal_files[0]
         geff = geff_files[0] if geff_files else None
-
         diff = abs((cal_date - measurement_date).days) if measurement_date else 0
-        if best_diff is None or diff < best_diff:
-            best_diff = diff
-            best_gcal = gcal
-            best_geff = geff
+        candidates.append((gcal, geff, diff))
 
-    return best_gcal, best_geff
+    if not candidates:
+        return None, None
+
+    # Prefer calibrations with both files, then by closest date
+    has_both = [(g, e, d) for g, e, d in candidates if e is not None]
+    if has_both:
+        best = min(has_both, key=lambda x: x[2])
+    else:
+        best = min(candidates, key=lambda x: x[2])
+
+    return best[0], best[1]
 
 
 def rough_calibration_from_peaks(counts, e_peak1=511.062, e_peak2=1460.8, search_win=20):
