@@ -1,0 +1,7592 @@
+meta:
+  source: Strahlenschutzverordnung (StrlSchV) Anlage 4
+  url: https://www.gesetze-im-internet.de/strlschv_2018/xml.zip
+  description: Freigrenzen and Freigabewerte for radioactive isotopes
+  columns:
+    Bq: Freigrenze total activity (Bq)
+    Bq_g: Freigrenze uneingeschränkte Freigabe, spezifische (Bq/g)
+    HRQ: Aktivität HRQ (highly radioactive source threshold)
+    surface_Bq_cm2: Oberflächenkontamination (Bq/cm²)
+    half_life_s: Half-life in seconds
+    half_life_raw: Half-life as raw value with unit
+isotopes:
+  H-3:
+    element: H
+    A: 3
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: 2000.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 388158480.0
+    half_life_raw: 12,3 a
+  Be-7:
+    element: Be
+    A: 7
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 1.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 4596480.0
+    half_life_raw: 53,2 d
+  Be-10:
+    element: Be
+    A: 10
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 30.0
+    surface_Bq_cm2: null
+    half_life_s: 50492160000000.0
+    half_life_raw: 1,6 E+6 a
+  C-11:
+    element: C
+    A: 11
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.06
+    surface_Bq_cm2: null
+    half_life_s: 1224.0
+    half_life_raw: 20,4 m
+  C-14:
+    element: C
+    A: 14
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1.0
+    HRQ: 50.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 179878320000.0
+    half_life_raw: 5,7 E+3 a
+  N-13:
+    element: N
+    A: 13
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: 0.06
+    surface_Bq_cm2: null
+    half_life_s: 600.0
+    half_life_raw: 10,0 m
+  O-15:
+    element: O
+    A: 15
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 120.0
+    half_life_raw: 2,0 m
+  F-18:
+    element: F
+    A: 18
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.06
+    surface_Bq_cm2: 1.0
+    half_life_s: 6582.0
+    half_life_raw: 109,7 m
+  Na-22:
+    element: Na
+    A: 22
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 82049760.0
+    half_life_raw: 2,6 a
+  Na-24:
+    element: Na
+    A: 24
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: 0.02
+    surface_Bq_cm2: 1.0
+    half_life_s: 54000.0
+    half_life_raw: 15,0 h
+  Mg-28:
+    element: Mg
+    A: 28
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: 0.02
+    surface_Bq_cm2: null
+    half_life_s: 75240.0
+    half_life_raw: 20,9 h
+  Al-26:
+    element: Al
+    A: 26
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 0.01
+    HRQ: 0.03
+    surface_Bq_cm2: null
+    half_life_s: 22721472000000.0
+    half_life_raw: 7,2 E+5 a
+  Si-31:
+    element: Si
+    A: 31
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 10.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 9360.0
+    half_life_raw: 2,6 h
+  Si-32:
+    element: Si
+    A: 32
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 7.0
+    surface_Bq_cm2: null
+    half_life_s: 4165603200.0
+    half_life_raw: 132,0 a
+  P-32:
+    element: P
+    A: 32
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1000.0
+    HRQ: 10.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 1235520.0
+    half_life_raw: 14,3 d
+  P-33:
+    element: P
+    A: 33
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 1000.0
+    HRQ: 200.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 2194560.0
+    half_life_raw: 25,4 d
+  S-35:
+    element: S
+    A: 35
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 100.0
+    HRQ: 60.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 7542720.0
+    half_life_raw: 87,3 d
+  Cl-36:
+    element: Cl
+    A: 36
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 20.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 9467280000000.0
+    half_life_raw: 3,0 E+5 a
+  Cl-38:
+    element: Cl
+    A: 38
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.05
+    surface_Bq_cm2: 1.0
+    half_life_s: 2232.0
+    half_life_raw: 37,2 m
+  Cl-39:
+    element: Cl
+    A: 39
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3336.0
+    half_life_raw: 55,6 m
+  Ar-37:
+    element: Ar
+    A: 37
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 1000000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3024000.0
+    half_life_raw: 35,0 d
+  Ar-39:
+    element: Ar
+    A: 39
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 10000000.0
+    HRQ: 300.0
+    surface_Bq_cm2: null
+    half_life_s: 8488994400.0
+    half_life_raw: 269,0 a
+  Ar-41:
+    element: Ar
+    A: 41
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: 0.05
+    surface_Bq_cm2: null
+    half_life_s: 6480.0
+    half_life_raw: 1,8 h
+  K-40:
+    element: K
+    A: 40
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: null
+    surface_Bq_cm2: 10.0
+    half_life_s: 4.102488e+16
+    half_life_raw: 1,3 E+9 a
+  K-42:
+    element: K
+    A: 42
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 44640.0
+    half_life_raw: 12,4 h
+  K-43:
+    element: K
+    A: 43
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.07
+    surface_Bq_cm2: 1.0
+    half_life_s: 79920.0
+    half_life_raw: 22,2 h
+  K-44:
+    element: K
+    A: 44
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1326.0
+    half_life_raw: 22,1 m
+  K-45:
+    element: K
+    A: 45
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1038.0
+    half_life_raw: 17,3 m
+  Ca-41:
+    element: Ca
+    A: 41
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3155760000000.0
+    half_life_raw: 1,0 E+5 a
+  Ca-45:
+    element: Ca
+    A: 45
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 100.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 14083200.0
+    half_life_raw: 163,0 d
+  Ca-47:
+    element: Ca
+    A: 47
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.06
+    surface_Bq_cm2: 1.0
+    half_life_s: 388800.0
+    half_life_raw: 4,5 d
+  Sc-43:
+    element: Sc
+    A: 43
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 14040.0
+    half_life_raw: 3,9 h
+  Sc-44:
+    element: Sc
+    A: 44
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: 0.03
+    surface_Bq_cm2: null
+    half_life_s: 14400.0
+    half_life_raw: 4,0 h
+  Sc-44m:
+    element: Sc
+    A: 44
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 207360.0
+    half_life_raw: 2,4 d
+  Sc-46:
+    element: Sc
+    A: 46
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 7240320.0
+    half_life_raw: 83,8 d
+  Sc-47:
+    element: Sc
+    A: 47
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.7
+    surface_Bq_cm2: 10.0
+    half_life_s: 293760.0
+    half_life_raw: 3,4 d
+  Sc-48:
+    element: Sc
+    A: 48
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: 0.02
+    surface_Bq_cm2: 1.0
+    half_life_s: 157320.0
+    half_life_raw: 43,7 h
+  Sc-49:
+    element: Sc
+    A: 49
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3432.0
+    half_life_raw: 57,2 m
+  Ti-44:
+    element: Ti
+    A: 44
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 0.1
+    HRQ: 0.03
+    surface_Bq_cm2: null
+    half_life_s: 1893456000.0
+    half_life_raw: 60,0 a
+  Ti-45:
+    element: Ti
+    A: 45
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 11160.0
+    half_life_raw: 3,1 h
+  V-47:
+    element: V
+    A: 47
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1956.0
+    half_life_raw: 32,6 m
+  V-48:
+    element: V
+    A: 48
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: 0.02
+    surface_Bq_cm2: 1.0
+    half_life_s: 1382400.0
+    half_life_raw: 16,0 d
+  V-49:
+    element: V
+    A: 49
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10000.0
+    HRQ: 2000.0
+    surface_Bq_cm2: null
+    half_life_s: 28512000.0
+    half_life_raw: 330,0 d
+  Cr-48:
+    element: Cr
+    A: 48
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 77760.0
+    half_life_raw: 21,6 h
+  Cr-49:
+    element: Cr
+    A: 49
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2514.0
+    half_life_raw: 41,9 m
+  Cr-51:
+    element: Cr
+    A: 51
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 2.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 2393280.0
+    half_life_raw: 27,7 d
+  Mn-51:
+    element: Mn
+    A: 51
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 2772.0
+    half_life_raw: 46,2 m
+  Mn-52:
+    element: Mn
+    A: 52
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: 0.02
+    surface_Bq_cm2: 1.0
+    half_life_s: 483839.99999999994
+    half_life_raw: 5,6 d
+  Mn-52m:
+    element: Mn
+    A: 52
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 1272.0
+    half_life_raw: 21,2 m
+  Mn-53:
+    element: Mn
+    A: 53
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 100.0
+    half_life_s: 116763120000000.0
+    half_life_raw: 3,7 E+6 a
+  Mn-54:
+    element: Mn
+    A: 54
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.08
+    surface_Bq_cm2: 1.0
+    half_life_s: 26965440.000000004
+    half_life_raw: 312,1 d
+  Mn-56:
+    element: Mn
+    A: 56
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.04
+    surface_Bq_cm2: 1.0
+    half_life_s: 9360.0
+    half_life_raw: 2,6 h
+  Fe-52:
+    element: Fe
+    A: 52
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.02
+    surface_Bq_cm2: 100.0
+    half_life_s: 29880.000000000004
+    half_life_raw: 8,3 h
+  Fe-55:
+    element: Fe
+    A: 55
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 800.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 85205520.0
+    half_life_raw: 2,7 a
+  Fe-59:
+    element: Fe
+    A: 59
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.06
+    surface_Bq_cm2: 1.0
+    half_life_s: 3844800.0
+    half_life_raw: 44,5 d
+  Fe-60:
+    element: Fe
+    A: 60
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.06
+    surface_Bq_cm2: null
+    half_life_s: 47336400000000.0
+    half_life_raw: 1,5 E+6 a
+  Co-55:
+    element: Co
+    A: 55
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 63000.0
+    half_life_raw: 17,5 h
+  Co-56:
+    element: Co
+    A: 56
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 0.1
+    HRQ: 0.02
+    surface_Bq_cm2: 1.0
+    half_life_s: 6678720.0
+    half_life_raw: 77,3 d
+  Co-57:
+    element: Co
+    A: 57
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.7
+    surface_Bq_cm2: 10.0
+    half_life_s: 23483520.0
+    half_life_raw: 271,8 d
+  Co-58:
+    element: Co
+    A: 58
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.07
+    surface_Bq_cm2: 1.0
+    half_life_s: 6125760.000000001
+    half_life_raw: 70,9 d
+  Co-58m:
+    element: Co
+    A: 58
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 10000.0
+    HRQ: 0.07
+    surface_Bq_cm2: 100.0
+    half_life_s: 32040.0
+    half_life_raw: 8,9 h
+  Co-60:
+    element: Co
+    A: 60
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 0.1
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 167255280.0
+    half_life_raw: 5,3 a
+  Co-60m:
+    element: Co
+    A: 60
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: 100.0
+    half_life_s: 630.0
+    half_life_raw: 10,5 m
+  Co-61:
+    element: Co
+    A: 61
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 10.0
+    half_life_s: 6120.0
+    half_life_raw: 1,7 h
+  Co-62m:
+    element: Co
+    A: 62
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 834.0
+    half_life_raw: 13,9 m
+  Ni-56:
+    element: Ni
+    A: 56
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 527040.0
+    half_life_raw: 6,1 d
+  Ni-57:
+    element: Ni
+    A: 57
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 129240.0
+    half_life_raw: 35,9 h
+  Ni-59:
+    element: Ni
+    A: 59
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 100.0
+    HRQ: 1000.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 2398377600000.0
+    half_life_raw: 7,6 E+4 a
+  Ni-63:
+    element: Ni
+    A: 63
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 100.0
+    HRQ: 60.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 3174694560.0
+    half_life_raw: 100,6 a
+  Ni-65:
+    element: Ni
+    A: 65
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: 10.0
+    half_life_s: 9000.0
+    half_life_raw: 2,5 h
+  Ni-66:
+    element: Ni
+    A: 66
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 195840.0
+    half_life_raw: 54,4 h
+  Cu-60:
+    element: Cu
+    A: 60
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1422.0
+    half_life_raw: 23,7 m
+  Cu-61:
+    element: Cu
+    A: 61
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 11880.0
+    half_life_raw: 3,3 h
+  Cu-64:
+    element: Cu
+    A: 64
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.3
+    surface_Bq_cm2: 10.0
+    half_life_s: 45720.0
+    half_life_raw: 12,7 h
+  Cu-67:
+    element: Cu
+    A: 67
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.7
+    surface_Bq_cm2: null
+    half_life_s: 222840.0
+    half_life_raw: 61,9 h
+  Zn-62:
+    element: Zn
+    A: 62
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 33480.0
+    half_life_raw: 9,3 h
+  Zn-63:
+    element: Zn
+    A: 63
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2304.0
+    half_life_raw: 38,4 m
+  Zn-65:
+    element: Zn
+    A: 65
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 21098880.0
+    half_life_raw: 244,2 d
+  Zn-69:
+    element: Zn
+    A: 69
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 30.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 3384.0
+    half_life_raw: 56,4 m
+  Zn-69m:
+    element: Zn
+    A: 69
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 49680.0
+    half_life_raw: 13,8 h
+  Zn-71m:
+    element: Zn
+    A: 71
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 14400.0
+    half_life_raw: 4,0 h
+  Zn-72:
+    element: Zn
+    A: 72
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 167400.0
+    half_life_raw: 46,5 h
+  Ga-65:
+    element: Ga
+    A: 65
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 912.0
+    half_life_raw: 15,2 m
+  Ga-66:
+    element: Ga
+    A: 66
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 34200.0
+    half_life_raw: 9,5 h
+  Ga-67:
+    element: Ga
+    A: 67
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.5
+    surface_Bq_cm2: null
+    half_life_s: 285120.0
+    half_life_raw: 3,3 d
+  Ga-68:
+    element: Ga
+    A: 68
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.07
+    surface_Bq_cm2: null
+    half_life_s: 4062.0
+    half_life_raw: 67,7 m
+  Ga-70:
+    element: Ga
+    A: 70
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1266.0
+    half_life_raw: 21,1 m
+  Ga-72:
+    element: Ga
+    A: 72
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 50760.0
+    half_life_raw: 14,1 h
+  Ga-73:
+    element: Ga
+    A: 73
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 17640.0
+    half_life_raw: 4,9 h
+  Ge-66:
+    element: Ge
+    A: 66
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 8280.0
+    half_life_raw: 2,3 h
+  Ge-67:
+    element: Ge
+    A: 67
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1134.0
+    half_life_raw: 18,9 m
+  Ge-68:
+    element: Ge
+    A: 68
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 0.1
+    HRQ: 0.07
+    surface_Bq_cm2: 1.0
+    half_life_s: 23414400.0
+    half_life_raw: 271,0 d
+  Ge-69:
+    element: Ge
+    A: 69
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 140760.0
+    half_life_raw: 39,1 h
+  Ge-71:
+    element: Ge
+    A: 71
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 10000.0
+    HRQ: 1000.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 984960.0
+    half_life_raw: 11,4 d
+  Ge-75:
+    element: Ge
+    A: 75
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4968.0
+    half_life_raw: 82,8 m
+  Ge-77:
+    element: Ge
+    A: 77
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.06
+    surface_Bq_cm2: null
+    half_life_s: 40680.0
+    half_life_raw: 11,3 h
+  Ge-78:
+    element: Ge
+    A: 78
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 5280.0
+    half_life_raw: 88,0 m
+  As-69:
+    element: As
+    A: 69
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 912.0
+    half_life_raw: 15,2 m
+  As-70:
+    element: As
+    A: 70
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3156.0
+    half_life_raw: 52,6 m
+  As-71:
+    element: As
+    A: 71
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 235080.0
+    half_life_raw: 65,3 h
+  As-72:
+    element: As
+    A: 72
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.04
+    surface_Bq_cm2: null
+    half_life_s: 93600.0
+    half_life_raw: 26,0 h
+  As-73:
+    element: As
+    A: 73
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: 40.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 6937920.0
+    half_life_raw: 80,3 d
+  As-74:
+    element: As
+    A: 74
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.09
+    surface_Bq_cm2: 1.0
+    half_life_s: 1537920.0
+    half_life_raw: 17,8 d
+  As-76:
+    element: As
+    A: 76
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 94320.0
+    half_life_raw: 26,2 h
+  As-77:
+    element: As
+    A: 77
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 8.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 139680.0
+    half_life_raw: 38,8 h
+  As-78:
+    element: As
+    A: 78
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 5400.0
+    half_life_raw: 1,5 h
+  Se-70:
+    element: Se
+    A: 70
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2466.0
+    half_life_raw: 41,1 m
+  Se-73:
+    element: Se
+    A: 73
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 25920.0
+    half_life_raw: 7,2 h
+  Se-73m:
+    element: Se
+    A: 73
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2388.0
+    half_life_raw: 39,8 m
+  Se-75:
+    element: Se
+    A: 75
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 10333440.0
+    half_life_raw: 119,6 d
+  Se-79:
+    element: Se
+    A: 79
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 0.1
+    HRQ: 200.0
+    surface_Bq_cm2: null
+    half_life_s: 11991888000000.0
+    half_life_raw: 3,8 E+5 a
+  Se-81:
+    element: Se
+    A: 81
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1104.0
+    half_life_raw: 18,4 m
+  Se-81m:
+    element: Se
+    A: 81
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3438.0
+    half_life_raw: 57,3 m
+  Se-83:
+    element: Se
+    A: 83
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1338.0
+    half_life_raw: 22,3 m
+  Br-74:
+    element: Br
+    A: 74
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1524.0
+    half_life_raw: 25,4 m
+  Br-74m:
+    element: Br
+    A: 74
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2760.0
+    half_life_raw: 46,0 m
+  Br-75:
+    element: Br
+    A: 75
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 5760.0
+    half_life_raw: 1,6 h
+  Br-76:
+    element: Br
+    A: 76
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.03
+    surface_Bq_cm2: null
+    half_life_s: 58320.0
+    half_life_raw: 16,2 h
+  Br-77:
+    element: Br
+    A: 77
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.2
+    surface_Bq_cm2: null
+    half_life_s: 205200.0
+    half_life_raw: 57,0 h
+  Br-80:
+    element: Br
+    A: 80
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1056.0
+    half_life_raw: 17,6 m
+  Br-80m:
+    element: Br
+    A: 80
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 15840.000000000002
+    half_life_raw: 4,4 h
+  Br-82:
+    element: Br
+    A: 82
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 127079.99999999999
+    half_life_raw: 35,3 h
+  Br-83:
+    element: Br
+    A: 83
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 8640.0
+    half_life_raw: 2,4 h
+  Br-84:
+    element: Br
+    A: 84
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1908.0
+    half_life_raw: 31,8 m
+  Kr-74:
+    element: Kr
+    A: 74
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 690.0
+    half_life_raw: 11,5 m
+  Kr-76:
+    element: Kr
+    A: 76
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 52560.0
+    half_life_raw: 14,6 h
+  Kr-77:
+    element: Kr
+    A: 77
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4320.0
+    half_life_raw: 1,2 h
+  Kr-79:
+    element: Kr
+    A: 79
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 125640.0
+    half_life_raw: 34,9 h
+  Kr-81:
+    element: Kr
+    A: 81
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10000.0
+    HRQ: 30.0
+    surface_Bq_cm2: null
+    half_life_s: 6627096000000.0
+    half_life_raw: 2,1 E+5 a
+  Kr-81m:
+    element: Kr
+    A: 81
+    isomer: m
+    Bq: 10000000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 13.3
+    half_life_raw: 13,3 s
+  Kr-83m:
+    element: Kr
+    A: 83
+    isomer: m
+    Bq: 1000000000000.0
+    Bq_g: 100000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 6480.0
+    half_life_raw: 1,8 h
+  Kr-85:
+    element: Kr
+    A: 85
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 100000.0
+    HRQ: 30.0
+    surface_Bq_cm2: null
+    half_life_s: 340822080.0
+    half_life_raw: 10,8 a
+  Kr-85m:
+    element: Kr
+    A: 85
+    isomer: m
+    Bq: 10000000000.0
+    Bq_g: 1000.0
+    HRQ: 0.5
+    surface_Bq_cm2: null
+    half_life_s: 16200.0
+    half_life_raw: 4,5 h
+  Kr-87:
+    element: Kr
+    A: 87
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: 0.09
+    surface_Bq_cm2: null
+    half_life_s: 4578.0
+    half_life_raw: 76,3 m
+  Kr-88:
+    element: Kr
+    A: 88
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 10080.0
+    half_life_raw: 2,8 h
+  Rb-79:
+    element: Rb
+    A: 79
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1374.0
+    half_life_raw: 22,9 m
+  Rb-81:
+    element: Rb
+    A: 81
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: null
+    half_life_s: 16560.0
+    half_life_raw: 4,6 h
+  Rb-81m:
+    element: Rb
+    A: 81
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1818.0
+    half_life_raw: 30,3 m
+  Rb-82m:
+    element: Rb
+    A: 82
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 23400.0
+    half_life_raw: 6,5 h
+  Rb-83:
+    element: Rb
+    A: 83
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: 10.0
+    half_life_s: 7447680.0
+    half_life_raw: 86,2 d
+  Rb-84:
+    element: Rb
+    A: 84
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.07
+    surface_Bq_cm2: null
+    half_life_s: 2894400.0
+    half_life_raw: 33,5 d
+  Rb-86:
+    element: Rb
+    A: 86
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: 0.7
+    surface_Bq_cm2: 10.0
+    half_life_s: 1607040.0000000002
+    half_life_raw: 18,6 d
+  Rb-87:
+    element: Rb
+    A: 87
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1.5147648e+18
+    half_life_raw: 4,8 E+10 a
+  Rb-88:
+    element: Rb
+    A: 88
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1068.0
+    half_life_raw: 17,8 m
+  Rb-89:
+    element: Rb
+    A: 89
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 924.0
+    half_life_raw: 15,4 m
+  Sr-80:
+    element: Sr
+    A: 80
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 6480.0
+    half_life_raw: 1,8 h
+  Sr-81:
+    element: Sr
+    A: 81
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1338.0
+    half_life_raw: 22,3 m
+  Sr-82:
+    element: Sr
+    A: 82
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: 0.06
+    surface_Bq_cm2: null
+    half_life_s: 2194560.0
+    half_life_raw: 25,4 d
+  Sr-83:
+    element: Sr
+    A: 83
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 116640.0
+    half_life_raw: 32,4 h
+  Sr-85:
+    element: Sr
+    A: 85
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 5598720.0
+    half_life_raw: 64,8 d
+  Sr-85m:
+    element: Sr
+    A: 85
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 0.1
+    surface_Bq_cm2: 10.0
+    half_life_s: 4055.9999999999995
+    half_life_raw: 67,6 m
+  Sr-87m:
+    element: Sr
+    A: 87
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 10080.0
+    half_life_raw: 2,8 h
+  Sr-89:
+    element: Sr
+    A: 89
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 20.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 4371840.0
+    half_life_raw: 50,6 d
+  Sr-90:
+    element: Sr
+    A: 90
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 1.0
+    surface_Bq_cm2: 1.0
+    half_life_s: 908858880.0
+    half_life_raw: 28,8 a
+  Sr-91:
+    element: Sr
+    A: 91
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.06
+    surface_Bq_cm2: 1.0
+    half_life_s: 34560.0
+    half_life_raw: 9,6 h
+  Sr-92:
+    element: Sr
+    A: 92
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.04
+    surface_Bq_cm2: 1.0
+    half_life_s: 9720.0
+    half_life_raw: 2,7 h
+  Y-86:
+    element: Y
+    A: 86
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 52920.0
+    half_life_raw: 14,7 h
+  Y-86m:
+    element: Y
+    A: 86
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2880.0
+    half_life_raw: 48,0 m
+  Y-87:
+    element: Y
+    A: 87
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.09
+    surface_Bq_cm2: null
+    half_life_s: 287280.0
+    half_life_raw: 79,8 h
+  Y-88:
+    element: Y
+    A: 88
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 9210240.0
+    half_life_raw: 106,6 d
+  Y-90:
+    element: Y
+    A: 90
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1000.0
+    HRQ: 5.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 230759.99999999997
+    half_life_raw: 64,1 h
+  Y-91:
+    element: Y
+    A: 91
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 8.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 5054400.0
+    half_life_raw: 58,5 d
+  Y-91m:
+    element: Y
+    A: 91
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 2982.0
+    half_life_raw: 49,7 m
+  Y-92:
+    element: Y
+    A: 92
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 12600.0
+    half_life_raw: 3,5 h
+  Y-93:
+    element: Y
+    A: 93
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: 0.6
+    surface_Bq_cm2: 10.0
+    half_life_s: 36720.0
+    half_life_raw: 10,2 h
+  Y-94:
+    element: Y
+    A: 94
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1122.0
+    half_life_raw: 18,7 m
+  Y-95:
+    element: Y
+    A: 95
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 618.0
+    half_life_raw: 10,3 m
+  Zr-86:
+    element: Zr
+    A: 86
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 59400.0
+    half_life_raw: 16,5 h
+  Zr-88:
+    element: Zr
+    A: 88
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.02
+    surface_Bq_cm2: null
+    half_life_s: 7171200.0
+    half_life_raw: 83,0 d
+  Zr-89:
+    element: Zr
+    A: 89
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 282240.0
+    half_life_raw: 78,4 h
+  Zr-93:
+    element: Zr
+    A: 93
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 100.0
+    half_life_s: 47336400000000.0
+    half_life_raw: 1,5 E+6 a
+  Zr-95:
+    element: Zr
+    A: 95
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.04
+    surface_Bq_cm2: 1.0
+    half_life_s: 5529600.0
+    half_life_raw: 64,0 d
+  Zr-97:
+    element: Zr
+    A: 97
+    isomer: null
+    Bq: null
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 60480.0
+    half_life_raw: 16,8 h
+  Nb-88:
+    element: Nb
+    A: 88
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 870.0
+    half_life_raw: 14,5 m
+  Nb-89:
+    element: Nb
+    A: 89
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 7200.0
+    half_life_raw: 2,0 h
+  Nb-90:
+    element: Nb
+    A: 90
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 52560.0
+    half_life_raw: 14,6 h
+  Nb-91:
+    element: Nb
+    A: 91
+    isomer: null
+    Bq: null
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 21459168000.0
+    half_life_raw: 6,8 E+2 a
+  Nb-91m:
+    element: Nb
+    A: 91
+    isomer: m
+    Bq: null
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 5184000.0
+    half_life_raw: 6 E+1 d
+  Nb-93m:
+    element: Nb
+    A: 93
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 300.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 508077360.00000006
+    half_life_raw: 16,1 a
+  Nb-94:
+    element: Nb
+    A: 94
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.04
+    surface_Bq_cm2: 1.0
+    half_life_s: 631152000000.0
+    half_life_raw: 2,0 E+4 a
+  Nb-95:
+    element: Nb
+    A: 95
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.09
+    surface_Bq_cm2: 1.0
+    half_life_s: 3024000.0
+    half_life_raw: 35,0 d
+  Nb-97:
+    element: Nb
+    A: 97
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 4326.0
+    half_life_raw: 72,1 m
+  Nb-98m:
+    element: Nb
+    A: 98
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 3078.0
+    half_life_raw: 51,3 m
+  Mo-90:
+    element: Mo
+    A: 90
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 20160.0
+    half_life_raw: 5,6 h
+  Mo-93:
+    element: Mo
+    A: 93
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 10.0
+    HRQ: 300.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 126230400000.0
+    half_life_raw: 4,0 E+3 a
+  Mo-99:
+    element: Mo
+    A: 99
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.3
+    surface_Bq_cm2: 10.0
+    half_life_s: 237240.00000000003
+    half_life_raw: 65,9 h
+  Mo-101:
+    element: Mo
+    A: 101
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 876.0
+    half_life_raw: 14,6 m
+  Tc-93:
+    element: Tc
+    A: 93
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 10080.0
+    half_life_raw: 2,8 h
+  Tc-93m:
+    element: Tc
+    A: 93
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2610.0
+    half_life_raw: 43,5 m
+  Tc-94:
+    element: Tc
+    A: 94
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 17640.0
+    half_life_raw: 4,9 h
+  Tc-94m:
+    element: Tc
+    A: 94
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3120.0
+    half_life_raw: 52,0 m
+  Tc-95m:
+    element: Tc
+    A: 95
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: null
+    half_life_s: 5270400.0
+    half_life_raw: 61,0 d
+  Tc-96:
+    element: Tc
+    A: 96
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 371520.0
+    half_life_raw: 4,3 d
+  Tc-96m:
+    element: Tc
+    A: 96
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: 0.03
+    surface_Bq_cm2: 100.0
+    half_life_s: 3090.0
+    half_life_raw: 51,5 m
+  Tc-97:
+    element: Tc
+    A: 97
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 100.0
+    half_life_s: 82049760000000.0
+    half_life_raw: 2,6 E+6 a
+  Tc-97m:
+    element: Tc
+    A: 97
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 40.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 7793280.0
+    half_life_raw: 90,2 d
+  Tc-98:
+    element: Tc
+    A: 98
+    isomer: null
+    Bq: null
+    Bq_g: 0.1
+    HRQ: 0.05
+    surface_Bq_cm2: null
+    half_life_s: 132541920000000.0
+    half_life_raw: 4,2 E+6 a
+  Tc-99:
+    element: Tc
+    A: 99
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1.0
+    HRQ: 30.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 6627096000000.0
+    half_life_raw: 2,1 E+5 a
+  Tc-99m:
+    element: Tc
+    A: 99
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 0.7
+    surface_Bq_cm2: 10.0
+    half_life_s: 21600.0
+    half_life_raw: 6,0 h
+  Tc-101:
+    element: Tc
+    A: 101
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 852.0
+    half_life_raw: 14,2 m
+  Tc-104:
+    element: Tc
+    A: 104
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1098.0
+    half_life_raw: 18,3 m
+  Ru-94:
+    element: Ru
+    A: 94
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3108.0
+    half_life_raw: 51,8 m
+  Ru-97:
+    element: Ru
+    A: 97
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 0.3
+    surface_Bq_cm2: 10.0
+    half_life_s: 250560.0
+    half_life_raw: 2,9 d
+  Ru-103:
+    element: Ru
+    A: 103
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: 10.0
+    half_life_s: 3395519.9999999995
+    half_life_raw: 39,3 d
+  Ru-105:
+    element: Ru
+    A: 105
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.08
+    surface_Bq_cm2: 1.0
+    half_life_s: 15840.000000000002
+    half_life_raw: 4,4 h
+  Ru-106:
+    element: Ru
+    A: 106
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 0.1
+    HRQ: 0.3
+    surface_Bq_cm2: 10.0
+    half_life_s: 32192640.000000004
+    half_life_raw: 372,6 d
+  Rh-99:
+    element: Rh
+    A: 99
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: null
+    half_life_s: 1391040.0000000002
+    half_life_raw: 16,1 d
+  Rh-99m:
+    element: Rh
+    A: 99
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 16920.0
+    half_life_raw: 4,7 h
+  Rh-100:
+    element: Rh
+    A: 100
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 74880.0
+    half_life_raw: 20,8 h
+  Rh-101:
+    element: Rh
+    A: 101
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1.0
+    HRQ: 0.3
+    surface_Bq_cm2: null
+    half_life_s: 100984320.0
+    half_life_raw: 3,2 a
+  Rh-101m:
+    element: Rh
+    A: 101
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 371520.0
+    half_life_raw: 4,3 d
+  Rh-102:
+    element: Rh
+    A: 102
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.03
+    surface_Bq_cm2: null
+    half_life_s: 91517040.0
+    half_life_raw: 2,9 a
+  Rh-102m:
+    element: Rh
+    A: 102
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: null
+    half_life_s: 18921600.0
+    half_life_raw: 219,0 d
+  Rh-103m:
+    element: Rh
+    A: 103
+    isomer: m
+    Bq: 100000000.0
+    Bq_g: 10000.0
+    HRQ: 900.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 3366.0
+    half_life_raw: 56,1 m
+  Rh-105:
+    element: Rh
+    A: 105
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 0.9
+    surface_Bq_cm2: 10.0
+    half_life_s: 127440.0
+    half_life_raw: 35,4 h
+  Rh-106m:
+    element: Rh
+    A: 106
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 7920.000000000001
+    half_life_raw: 2,2 h
+  Rh-107:
+    element: Rh
+    A: 107
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1302.0
+    half_life_raw: 21,7 m
+  Pd-100:
+    element: Pd
+    A: 100
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 311040.0
+    half_life_raw: 3,6 d
+  Pd-101:
+    element: Pd
+    A: 101
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 30600.0
+    half_life_raw: 8,5 h
+  Pd-103:
+    element: Pd
+    A: 103
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 1000.0
+    HRQ: 90.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 1468800.0
+    half_life_raw: 17,0 d
+  Pd-107:
+    element: Pd
+    A: 107
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 205124400000000.0
+    half_life_raw: 6,5 E+6 a
+  Pd-109:
+    element: Pd
+    A: 109
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 20.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 49320.0
+    half_life_raw: 13,7 h
+  Ag-102:
+    element: Ag
+    A: 102
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 774.0
+    half_life_raw: 12,9 m
+  Ag-103:
+    element: Ag
+    A: 103
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3960.0000000000005
+    half_life_raw: 1,1 h
+  Ag-104:
+    element: Ag
+    A: 104
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4152.0
+    half_life_raw: 69,2 m
+  Ag-104m:
+    element: Ag
+    A: 104
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2010.0
+    half_life_raw: 33,5 m
+  Ag-105:
+    element: Ag
+    A: 105
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 3568319.9999999995
+    half_life_raw: 41,3 d
+  Ag-106:
+    element: Ag
+    A: 106
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1440.0
+    half_life_raw: 24,0 m
+  Ag-106m:
+    element: Ag
+    A: 106
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 734400.0
+    half_life_raw: 8,5 d
+  Ag-108m:
+    element: Ag
+    A: 108
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.04
+    surface_Bq_cm2: 1.0
+    half_life_s: 13191076800.0
+    half_life_raw: 418,0 a
+  Ag-110m:
+    element: Ag
+    A: 110
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.02
+    surface_Bq_cm2: 1.0
+    half_life_s: 21582720.0
+    half_life_raw: 249,8 d
+  Ag-111:
+    element: Ag
+    A: 111
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 2.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 648000.0
+    half_life_raw: 7,5 d
+  Ag-112:
+    element: Ag
+    A: 112
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 11160.0
+    half_life_raw: 3,1 h
+  Ag-115:
+    element: Ag
+    A: 115
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1200.0
+    half_life_raw: 20,0 m
+  Cd-104:
+    element: Cd
+    A: 104
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3462.0
+    half_life_raw: 57,7 m
+  Cd-107:
+    element: Cd
+    A: 107
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 23400.0
+    half_life_raw: 6,5 h
+  Cd-109:
+    element: Cd
+    A: 109
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 20.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 39968640.0
+    half_life_raw: 462,6 d
+  Cd-113:
+    element: Cd
+    A: 113
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2.4299352e+23
+    half_life_raw: 7,7 E+15 a
+  Cd-113m:
+    element: Cd
+    A: 113
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 40.0
+    surface_Bq_cm2: null
+    half_life_s: 460740960.0
+    half_life_raw: 14,6 a
+  Cd-115:
+    element: Cd
+    A: 115
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 192600.0
+    half_life_raw: 53,5 h
+  Cd-115m:
+    element: Cd
+    A: 115
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 3.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 3853440.0
+    half_life_raw: 44,6 d
+  Cd-117:
+    element: Cd
+    A: 117
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 9000.0
+    half_life_raw: 2,5 h
+  Cd-117m:
+    element: Cd
+    A: 117
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 12240.0
+    half_life_raw: 3,4 h
+  In-109:
+    element: In
+    A: 109
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 15120.0
+    half_life_raw: 4,2 h
+  In-110m:
+    element: In
+    A: 110
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4146.0
+    half_life_raw: 69,1 m
+  In-111:
+    element: In
+    A: 111
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 241919.99999999997
+    half_life_raw: 2,8 d
+  In-112:
+    element: In
+    A: 112
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 882.0
+    half_life_raw: 14,7 m
+  In-113m:
+    element: In
+    A: 113
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.3
+    surface_Bq_cm2: 10.0
+    half_life_s: 5970.0
+    half_life_raw: 99,5 m
+  In-114:
+    element: In
+    A: 114
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 72.0
+    half_life_raw: 1,2 m
+  In-114m:
+    element: In
+    A: 114
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.8
+    surface_Bq_cm2: 10.0
+    half_life_s: 4320000.0
+    half_life_raw: 50,0 d
+  In-115:
+    element: In
+    A: 115
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1.3885344e+22
+    half_life_raw: 4,4 E+14 a
+  In-115m:
+    element: In
+    A: 115
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.4
+    surface_Bq_cm2: 10.0
+    half_life_s: 16200.0
+    half_life_raw: 4,5 h
+  In-116m:
+    element: In
+    A: 116
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3276.0
+    half_life_raw: 54,6 m
+  In-117:
+    element: In
+    A: 117
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2592.0
+    half_life_raw: 43,2 m
+  In-117m:
+    element: In
+    A: 117
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 6840.0
+    half_life_raw: 1,9 h
+  In-119m:
+    element: In
+    A: 119
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1080.0
+    half_life_raw: 18,0 m
+  Sn-110:
+    element: Sn
+    A: 110
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 14759.999999999998
+    half_life_raw: 4,1 h
+  Sn-111:
+    element: Sn
+    A: 111
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2118.0
+    half_life_raw: 35,3 m
+  Sn-113:
+    element: Sn
+    A: 113
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1.0
+    HRQ: 0.3
+    surface_Bq_cm2: 10.0
+    half_life_s: 9944640.0
+    half_life_raw: 115,1 d
+  Sn-117m:
+    element: Sn
+    A: 117
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.5
+    surface_Bq_cm2: null
+    half_life_s: 1175040.0
+    half_life_raw: 13,6 d
+  Sn-119m:
+    element: Sn
+    A: 119
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 70.0
+    surface_Bq_cm2: null
+    half_life_s: 25315200.0
+    half_life_raw: 293,0 d
+  Sn-121:
+    element: Sn
+    A: 121
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 97200.0
+    half_life_raw: 27,0 h
+  Sn-121m:
+    element: Sn
+    A: 121
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1.0
+    HRQ: 70.0
+    surface_Bq_cm2: null
+    half_life_s: 1735668000.0
+    half_life_raw: 55,0 a
+  Sn-123:
+    element: Sn
+    A: 123
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 7.0
+    surface_Bq_cm2: null
+    half_life_s: 11162879.999999998
+    half_life_raw: 129,2 d
+  Sn-123m:
+    element: Sn
+    A: 123
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2406.0
+    half_life_raw: 40,1 m
+  Sn-125:
+    element: Sn
+    A: 125
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: 10.0
+    half_life_s: 829440.0
+    half_life_raw: 9,6 d
+  Sn-126:
+    element: Sn
+    A: 126
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 0.1
+    HRQ: 0.03
+    surface_Bq_cm2: null
+    half_life_s: 7258248000000.0
+    half_life_raw: 2,3 E+5 a
+  Sn-127:
+    element: Sn
+    A: 127
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 7560.0
+    half_life_raw: 2,1 h
+  Sn-128:
+    element: Sn
+    A: 128
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3546.0
+    half_life_raw: 59,1 m
+  Sb-115:
+    element: Sb
+    A: 115
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1926.0
+    half_life_raw: 32,1 m
+  Sb-116:
+    element: Sb
+    A: 116
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 948.0
+    half_life_raw: 15,8 m
+  Sb-116m:
+    element: Sb
+    A: 116
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3618.0
+    half_life_raw: 60,3 m
+  Sb-117:
+    element: Sb
+    A: 117
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 10080.0
+    half_life_raw: 2,8 h
+  Sb-118m:
+    element: Sb
+    A: 118
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 18000.0
+    half_life_raw: 5,0 h
+  Sb-119:
+    element: Sb
+    A: 119
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 137880.0
+    half_life_raw: 38,3 h
+  Sb-120m:
+    element: Sb
+    A: 120
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 501120.0
+    half_life_raw: 5,8 d
+  Sb-122:
+    element: Sb
+    A: 122
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: 10.0
+    half_life_s: 233280.00000000003
+    half_life_raw: 2,7 d
+  Sb-124:
+    element: Sb
+    A: 124
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.04
+    surface_Bq_cm2: 1.0
+    half_life_s: 5201280.0
+    half_life_raw: 60,2 d
+  Sb-125:
+    element: Sb
+    A: 125
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 88361280.0
+    half_life_raw: 2,8 a
+  Sb-126:
+    element: Sb
+    A: 126
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.02
+    surface_Bq_cm2: null
+    half_life_s: 1071360.0
+    half_life_raw: 12,4 d
+  Sb-126m:
+    element: Sb
+    A: 126
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1146.0
+    half_life_raw: 19,1 m
+  Sb-127:
+    element: Sb
+    A: 127
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 336960.0
+    half_life_raw: 3,9 d
+  Sb-128m:
+    element: Sb
+    A: 128
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 32400.0
+    half_life_raw: 9,0 h
+  Sb-129:
+    element: Sb
+    A: 129
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 15840.000000000002
+    half_life_raw: 4,4 h
+  Sb-130:
+    element: Sb
+    A: 130
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2370.0
+    half_life_raw: 39,5 m
+  Sb-131:
+    element: Sb
+    A: 131
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1380.0
+    half_life_raw: 23,0 m
+  Te-116:
+    element: Te
+    A: 116
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 9000.0
+    half_life_raw: 2,5 h
+  Te-121:
+    element: Te
+    A: 121
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: null
+    half_life_s: 1658880.0
+    half_life_raw: 19,2 d
+  Te-121m:
+    element: Te
+    A: 121
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: null
+    half_life_s: 13305600.0
+    half_life_raw: 154,0 d
+  Te-123:
+    element: Te
+    A: 123
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: null
+    half_life_raw: '>9,2 E+16 a'
+  Te-123m:
+    element: Te
+    A: 123
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1.0
+    HRQ: 0.6
+    surface_Bq_cm2: 10.0
+    half_life_s: 10324800.0
+    half_life_raw: 119,5 d
+  Te-125m:
+    element: Te
+    A: 125
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: 10.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 4959360.0
+    half_life_raw: 57,4 d
+  Te-127:
+    element: Te
+    A: 127
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 10.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 33840.0
+    half_life_raw: 9,4 h
+  Te-127m:
+    element: Te
+    A: 127
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 3.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 9417600.0
+    half_life_raw: 109,0 d
+  Te-129:
+    element: Te
+    A: 129
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 1.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 4176.0
+    half_life_raw: 69,6 m
+  Te-129m:
+    element: Te
+    A: 129
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 1.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 2903040.0
+    half_life_raw: 33,6 d
+  Te-131:
+    element: Te
+    A: 131
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 10.0
+    half_life_s: 1500.0
+    half_life_raw: 25,0 m
+  Te-131m:
+    element: Te
+    A: 131
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.04
+    surface_Bq_cm2: 1.0
+    half_life_s: 108000.0
+    half_life_raw: 30,0 h
+  Te-132:
+    element: Te
+    A: 132
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1.0
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 274680.0
+    half_life_raw: 76,3 h
+  Te-133:
+    element: Te
+    A: 133
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 750.0
+    half_life_raw: 12,5 m
+  Te-133m:
+    element: Te
+    A: 133
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 3324.0
+    half_life_raw: 55,4 m
+  Te-134:
+    element: Te
+    A: 134
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 2508.0
+    half_life_raw: 41,8 m
+  I-120:
+    element: I
+    A: 120
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 5040.0
+    half_life_raw: 1,4 h
+  I-120m:
+    element: I
+    A: 120
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3180.0
+    half_life_raw: 53,0 m
+  I-121:
+    element: I
+    A: 121
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 7560.0
+    half_life_raw: 2,1 h
+  I-123:
+    element: I
+    A: 123
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 0.5
+    surface_Bq_cm2: 10.0
+    half_life_s: 47520.0
+    half_life_raw: 13,2 h
+  I-124:
+    element: I
+    A: 124
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.06
+    surface_Bq_cm2: null
+    half_life_s: 362880.0
+    half_life_raw: 4,2 d
+  I-125:
+    element: I
+    A: 125
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 5132160.0
+    half_life_raw: 59,4 d
+  I-126:
+    element: I
+    A: 126
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: 10.0
+    half_life_s: 1123200.0
+    half_life_raw: 13,0 d
+  I-128:
+    element: I
+    A: 128
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1500.0
+    half_life_raw: 25,0 m
+  I-129:
+    element: I
+    A: 129
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 0.01
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 504921600000000.0
+    half_life_raw: 1,6 E+7 a
+  I-130:
+    element: I
+    A: 130
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 44640.0
+    half_life_raw: 12,4 h
+  I-131:
+    element: I
+    A: 131
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 691200.0
+    half_life_raw: 8,0 d
+  I-132:
+    element: I
+    A: 132
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 8280.0
+    half_life_raw: 2,3 h
+  I-132m:
+    element: I
+    A: 132
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4980.0
+    half_life_raw: 83,0 m
+  I-133:
+    element: I
+    A: 133
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: 10.0
+    half_life_s: 74880.0
+    half_life_raw: 20,8 h
+  I-134:
+    element: I
+    A: 134
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 3150.0
+    half_life_raw: 52,5 m
+  I-135:
+    element: I
+    A: 135
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.04
+    surface_Bq_cm2: 1.0
+    half_life_s: 23760.0
+    half_life_raw: 6,6 h
+  Xe-120:
+    element: Xe
+    A: 120
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2400.0
+    half_life_raw: 40,0 m
+  Xe-121:
+    element: Xe
+    A: 121
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2328.0
+    half_life_raw: 38,8 m
+  Xe-122:
+    element: Xe
+    A: 122
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: 0.06
+    surface_Bq_cm2: null
+    half_life_s: 72360.0
+    half_life_raw: 20,1 h
+  Xe-123:
+    element: Xe
+    A: 123
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: 0.09
+    surface_Bq_cm2: null
+    half_life_s: 7560.0
+    half_life_raw: 2,1 h
+  Xe-125:
+    element: Xe
+    A: 125
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 60480.0
+    half_life_raw: 16,8 h
+  Xe-127:
+    element: Xe
+    A: 127
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1000.0
+    HRQ: 0.3
+    surface_Bq_cm2: null
+    half_life_s: 3144960.0
+    half_life_raw: 36,4 d
+  Xe-129m:
+    element: Xe
+    A: 129
+    isomer: m
+    Bq: 10000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 768960.0
+    half_life_raw: 8,9 d
+  Xe-131m:
+    element: Xe
+    A: 131
+    isomer: m
+    Bq: 10000.0
+    Bq_g: 10000.0
+    HRQ: 10.0
+    surface_Bq_cm2: null
+    half_life_s: 1028160.0
+    half_life_raw: 11,9 d
+  Xe-133:
+    element: Xe
+    A: 133
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1000.0
+    HRQ: 3.0
+    surface_Bq_cm2: null
+    half_life_s: 457920.0
+    half_life_raw: 5,3 d
+  Xe-133m:
+    element: Xe
+    A: 133
+    isomer: m
+    Bq: 10000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 190080.00000000003
+    half_life_raw: 2,2 d
+  Xe-135:
+    element: Xe
+    A: 135
+    isomer: null
+    Bq: 10000000000.0
+    Bq_g: 1000.0
+    HRQ: 0.3
+    surface_Bq_cm2: null
+    half_life_s: 32760.0
+    half_life_raw: 9,1 h
+  Xe-135m:
+    element: Xe
+    A: 135
+    isomer: m
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 918.0
+    half_life_raw: 15,3 m
+  Xe-138:
+    element: Xe
+    A: 138
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 846.0
+    half_life_raw: 14,1 m
+  Cs-125:
+    element: Cs
+    A: 125
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2802.0
+    half_life_raw: 46,7 m
+  Cs-127:
+    element: Cs
+    A: 127
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 22680.0
+    half_life_raw: 6,3 h
+  Cs-129:
+    element: Cs
+    A: 129
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.3
+    surface_Bq_cm2: 10.0
+    half_life_s: 115920.00000000001
+    half_life_raw: 32,2 h
+  Cs-130:
+    element: Cs
+    A: 130
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1752.0
+    half_life_raw: 29,2 m
+  Cs-131:
+    element: Cs
+    A: 131
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 20.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 838079.9999999999
+    half_life_raw: 9,7 d
+  Cs-132:
+    element: Cs
+    A: 132
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 561600.0
+    half_life_raw: 6,5 d
+  Cs-134:
+    element: Cs
+    A: 134
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.04
+    surface_Bq_cm2: 1.0
+    half_life_s: 66270960.0
+    half_life_raw: 2,1 a
+  Cs-134m:
+    element: Cs
+    A: 134
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 1000.0
+    HRQ: 0.04
+    surface_Bq_cm2: 100.0
+    half_life_s: 10440.0
+    half_life_raw: 2,9 h
+  Cs-135:
+    element: Cs
+    A: 135
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 100.0
+    half_life_s: 72582480000000.0
+    half_life_raw: 2,3 E+6 a
+  Cs-136:
+    element: Cs
+    A: 136
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 1123200.0
+    half_life_raw: 13,0 d
+  Cs-137:
+    element: Cs
+    A: 137
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 946728000.0
+    half_life_raw: 30,0 a
+  Cs-138:
+    element: Cs
+    A: 138
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 2004.0
+    half_life_raw: 33,4 m
+  Ba-126:
+    element: Ba
+    A: 126
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 6000.0
+    half_life_raw: 100,0 m
+  Ba-128:
+    element: Ba
+    A: 128
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 207360.0
+    half_life_raw: 2,4 d
+  Ba-131:
+    element: Ba
+    A: 131
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 1002240.0
+    half_life_raw: 11,6 d
+  Ba-131m:
+    element: Ba
+    A: 131
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 876.0
+    half_life_raw: 14,6 m
+  Ba-133:
+    element: Ba
+    A: 133
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.2
+    surface_Bq_cm2: 1.0
+    half_life_s: 331354800.0
+    half_life_raw: 10,5 a
+  Ba-133m:
+    element: Ba
+    A: 133
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.3
+    surface_Bq_cm2: null
+    half_life_s: 140040.0
+    half_life_raw: 38,9 h
+  Ba-135m:
+    element: Ba
+    A: 135
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 103320.0
+    half_life_raw: 28,7 h
+  Ba-137m:
+    element: Ba
+    A: 137
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 156.0
+    half_life_raw: 2,6 m
+  Ba-139:
+    element: Ba
+    A: 139
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4986.0
+    half_life_raw: 83,1 m
+  Ba-140:
+    element: Ba
+    A: 140
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 1105920.0
+    half_life_raw: 12,8 d
+  Ba-141:
+    element: Ba
+    A: 141
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1098.0
+    half_life_raw: 18,3 m
+  Ba-142:
+    element: Ba
+    A: 142
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 636.0
+    half_life_raw: 10,6 m
+  La-131:
+    element: La
+    A: 131
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3540.0
+    half_life_raw: 59,0 m
+  La-132:
+    element: La
+    A: 132
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 17280.0
+    half_life_raw: 4,8 h
+  La-135:
+    element: La
+    A: 135
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 70200.0
+    half_life_raw: 19,5 h
+  La-137:
+    element: La
+    A: 137
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 20.0
+    surface_Bq_cm2: null
+    half_life_s: 1893456000000.0
+    half_life_raw: 6,0 E+4 a
+  La-138:
+    element: La
+    A: 138
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 0.1
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3.15576e+18
+    half_life_raw: 1,0 E+11 a
+  La-140:
+    element: La
+    A: 140
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 145080.0
+    half_life_raw: 40,3 h
+  La-141:
+    element: La
+    A: 141
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 14040.0
+    half_life_raw: 3,9 h
+  La-142:
+    element: La
+    A: 142
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 5466.0
+    half_life_raw: 91,1 m
+  La-143:
+    element: La
+    A: 143
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 846.0
+    half_life_raw: 14,1 m
+  Ce-134:
+    element: Ce
+    A: 134
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 272880.0
+    half_life_raw: 75,8 h
+  Ce-135:
+    element: Ce
+    A: 135
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 63720.0
+    half_life_raw: 17,7 h
+  Ce-137:
+    element: Ce
+    A: 137
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 32400.0
+    half_life_raw: 9,0 h
+  Ce-137m:
+    element: Ce
+    A: 137
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 123840.0
+    half_life_raw: 34,4 h
+  Ce-139:
+    element: Ce
+    A: 139
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.6
+    surface_Bq_cm2: 10.0
+    half_life_s: 11888640.0
+    half_life_raw: 137,6 d
+  Ce-141:
+    element: Ce
+    A: 141
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 1.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 2808000.0
+    half_life_raw: 32,5 d
+  Ce-143:
+    element: Ce
+    A: 143
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.3
+    surface_Bq_cm2: 10.0
+    half_life_s: 118800.0
+    half_life_raw: 33,0 h
+  Ce-144:
+    element: Ce
+    A: 144
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.9
+    surface_Bq_cm2: 100.0
+    half_life_s: 24624000.0
+    half_life_raw: 285,0 d
+  Pr-136:
+    element: Pr
+    A: 136
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 786.0
+    half_life_raw: 13,1 m
+  Pr-137:
+    element: Pr
+    A: 137
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4608.0
+    half_life_raw: 76,8 m
+  Pr-138m:
+    element: Pr
+    A: 138
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 7560.0
+    half_life_raw: 2,1 h
+  Pr-139:
+    element: Pr
+    A: 139
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 15840.000000000002
+    half_life_raw: 4,4 h
+  Pr-142:
+    element: Pr
+    A: 142
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: 1.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 68760.0
+    half_life_raw: 19,1 h
+  Pr-142m:
+    element: Pr
+    A: 142
+    isomer: m
+    Bq: 1000000000.0
+    Bq_g: 10000000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 876.0
+    half_life_raw: 14,6 m
+  Pr-143:
+    element: Pr
+    A: 143
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 30.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 1175040.0
+    half_life_raw: 13,6 d
+  Pr-144:
+    element: Pr
+    A: 144
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1038.0
+    half_life_raw: 17,3 m
+  Pr-145:
+    element: Pr
+    A: 145
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 21600.0
+    half_life_raw: 6,0 h
+  Pr-147:
+    element: Pr
+    A: 147
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 804.0
+    half_life_raw: 13,4 m
+  Nd-136:
+    element: Nd
+    A: 136
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3042.0
+    half_life_raw: 50,7 m
+  Nd-138:
+    element: Nd
+    A: 138
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 18000.0
+    half_life_raw: 5,0 h
+  Nd-139:
+    element: Nd
+    A: 139
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1782.0
+    half_life_raw: 29,7 m
+  Nd-139m:
+    element: Nd
+    A: 139
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 19800.0
+    half_life_raw: 5,5 h
+  Nd-140:
+    element: Nd
+    A: 140
+    isomer: null
+    Bq: null
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 293760.0
+    half_life_raw: 3,4 d
+  Nd-141:
+    element: Nd
+    A: 141
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 9000.0
+    half_life_raw: 2,5 h
+  Nd-147:
+    element: Nd
+    A: 147
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.6
+    surface_Bq_cm2: 10.0
+    half_life_s: 950400.0
+    half_life_raw: 11 d
+  Nd-149:
+    element: Nd
+    A: 149
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 6120.0
+    half_life_raw: 1,7 h
+  Nd-151:
+    element: Nd
+    A: 151
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 744.0
+    half_life_raw: 12,4 m
+  Pm-141:
+    element: Pm
+    A: 141
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1254.0
+    half_life_raw: 20,9 m
+  Pm-143:
+    element: Pm
+    A: 143
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.2
+    surface_Bq_cm2: null
+    half_life_s: 22982400.0
+    half_life_raw: 266,0 d
+  Pm-144:
+    element: Pm
+    A: 144
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.04
+    surface_Bq_cm2: null
+    half_life_s: 31557600.0
+    half_life_raw: 1,0 a
+  Pm-145:
+    element: Pm
+    A: 145
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 10.0
+    surface_Bq_cm2: null
+    half_life_s: 558569520.0
+    half_life_raw: 17,7 a
+  Pm-146:
+    element: Pm
+    A: 146
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 173566800.0
+    half_life_raw: 5,5 a
+  Pm-147:
+    element: Pm
+    A: 147
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: 40.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 82049760.0
+    half_life_raw: 2,6 a
+  Pm-148:
+    element: Pm
+    A: 148
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 466560.00000000006
+    half_life_raw: 5,4 d
+  Pm-148m:
+    element: Pm
+    A: 148
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.03
+    surface_Bq_cm2: null
+    half_life_s: 3551040.0
+    half_life_raw: 41,1 d
+  Pm-149:
+    element: Pm
+    A: 149
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 6.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 191160.0
+    half_life_raw: 53,1 h
+  Pm-150:
+    element: Pm
+    A: 150
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 9720.0
+    half_life_raw: 2,7 h
+  Pm-151:
+    element: Pm
+    A: 151
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.2
+    surface_Bq_cm2: null
+    half_life_s: 102240.0
+    half_life_raw: 28,4 h
+  Sm-141:
+    element: Sm
+    A: 141
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 612.0
+    half_life_raw: 10,2 m
+  Sm-141m:
+    element: Sm
+    A: 141
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1356.0
+    half_life_raw: 22,6 m
+  Sm-142:
+    element: Sm
+    A: 142
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4350.0
+    half_life_raw: 72,5 m
+  Sm-145:
+    element: Sm
+    A: 145
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 4.0
+    surface_Bq_cm2: null
+    half_life_s: 29376000.0
+    half_life_raw: 340,0 d
+  Sm-146:
+    element: Sm
+    A: 146
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3155760000000000.0
+    half_life_raw: 1,0 E+8 a
+  Sm-147:
+    element: Sm
+    A: 147
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3.471336e+18
+    half_life_raw: 1,1 E+11 a
+  Sm-151:
+    element: Sm
+    A: 151
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 1000.0
+    HRQ: 500.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 2840184000.0
+    half_life_raw: 90,0 a
+  Sm-153:
+    element: Sm
+    A: 153
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 2.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 166680.0
+    half_life_raw: 46,3 h
+  Sm-155:
+    element: Sm
+    A: 155
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1338.0
+    half_life_raw: 22,3 m
+  Sm-156:
+    element: Sm
+    A: 156
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 33840.0
+    half_life_raw: 9,4 h
+  Eu-145:
+    element: Eu
+    A: 145
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 509760.00000000006
+    half_life_raw: 5,9 d
+  Eu-146:
+    element: Eu
+    A: 146
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 397439.99999999994
+    half_life_raw: 4,6 d
+  Eu-147:
+    element: Eu
+    A: 147
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.2
+    surface_Bq_cm2: null
+    half_life_s: 2073600.0
+    half_life_raw: 24,0 d
+  Eu-148:
+    element: Eu
+    A: 148
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.03
+    surface_Bq_cm2: null
+    half_life_s: 4708800.0
+    half_life_raw: 54,5 d
+  Eu-149:
+    element: Eu
+    A: 149
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 2.0
+    surface_Bq_cm2: null
+    half_life_s: 8043839.999999999
+    half_life_raw: 93,1 d
+  Eu-150:
+    element: Eu
+    A: 150
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 2.0
+    surface_Bq_cm2: null
+    half_life_s: 1148696640.0
+    half_life_raw: 36,4 a
+  Eu-150m:
+    element: Eu
+    A: 150
+    isomer: m
+    Bq: null
+    Bq_g: null
+    HRQ: 0.05
+    surface_Bq_cm2: null
+    half_life_s: 46080.0
+    half_life_raw: 12,8 h
+  Eu-152:
+    element: Eu
+    A: 152
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.06
+    surface_Bq_cm2: 1.0
+    half_life_s: 426027600.0
+    half_life_raw: 13,5 a
+  Eu-152m:
+    element: Eu
+    A: 152
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 33480.0
+    half_life_raw: 9,3 h
+  Eu-154:
+    element: Eu
+    A: 154
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.06
+    surface_Bq_cm2: 1.0
+    half_life_s: 271395360.0
+    half_life_raw: 8,6 a
+  Eu-155:
+    element: Eu
+    A: 155
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1.0
+    HRQ: 2.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 151476480.0
+    half_life_raw: 4,8 a
+  Eu-156:
+    element: Eu
+    A: 156
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.05
+    surface_Bq_cm2: null
+    half_life_s: 1313280.0
+    half_life_raw: 15,2 d
+  Eu-157:
+    element: Eu
+    A: 157
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 54720.0
+    half_life_raw: 15,2 h
+  Eu-158:
+    element: Eu
+    A: 158
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2754.0
+    half_life_raw: 45,9 m
+  Gd-145:
+    element: Gd
+    A: 145
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1380.0
+    half_life_raw: 23,0 m
+  Gd-146:
+    element: Gd
+    A: 146
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.03
+    surface_Bq_cm2: null
+    half_life_s: 4173119.9999999995
+    half_life_raw: 48,3 d
+  Gd-147:
+    element: Gd
+    A: 147
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 137160.0
+    half_life_raw: 38,1 h
+  Gd-148:
+    element: Gd
+    A: 148
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 0.4
+    surface_Bq_cm2: null
+    half_life_s: 2354196960.0
+    half_life_raw: 74,6 a
+  Gd-149:
+    element: Gd
+    A: 149
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 803520.0000000001
+    half_life_raw: 9,3 d
+  Gd-151:
+    element: Gd
+    A: 151
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 10713600.0
+    half_life_raw: 124,0 d
+  Gd-152:
+    element: Gd
+    A: 152
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3.471336e+21
+    half_life_raw: 1,1 E+14 a
+  Gd-153:
+    element: Gd
+    A: 153
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 1.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 20770560.0
+    half_life_raw: 240,4 d
+  Gd-159:
+    element: Gd
+    A: 159
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 2.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 66600.0
+    half_life_raw: 18,5 h
+  Tb-147:
+    element: Tb
+    A: 147
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 6120.0
+    half_life_raw: 1,7 h
+  Tb-149:
+    element: Tb
+    A: 149
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 14759.999999999998
+    half_life_raw: 4,1 h
+  Tb-150:
+    element: Tb
+    A: 150
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 12600.0
+    half_life_raw: 3,5 h
+  Tb-151:
+    element: Tb
+    A: 151
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 63360.00000000001
+    half_life_raw: 17,6 h
+  Tb-153:
+    element: Tb
+    A: 153
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 198719.99999999997
+    half_life_raw: 2,3 d
+  Tb-154:
+    element: Tb
+    A: 154
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 77400.0
+    half_life_raw: 21,5 h
+  Tb-155:
+    element: Tb
+    A: 155
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 457920.0
+    half_life_raw: 5,3 d
+  Tb-156:
+    element: Tb
+    A: 156
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 449280.0
+    half_life_raw: 5,2 d
+  Tb-157:
+    element: Tb
+    A: 157
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 100.0
+    surface_Bq_cm2: null
+    half_life_s: 3124202400.0
+    half_life_raw: 99,0 a
+  Tb-158:
+    element: Tb
+    A: 158
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.09
+    surface_Bq_cm2: null
+    half_life_s: 5680368000.0
+    half_life_raw: 180,0 a
+  Tb-160:
+    element: Tb
+    A: 160
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.06
+    surface_Bq_cm2: 1.0
+    half_life_s: 6246720.0
+    half_life_raw: 72,3 d
+  Tb-161:
+    element: Tb
+    A: 161
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 596160.0
+    half_life_raw: 6,9 d
+  Dy-155:
+    element: Dy
+    A: 155
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 35640.0
+    half_life_raw: 9,9 h
+  Dy-157:
+    element: Dy
+    A: 157
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 29160.0
+    half_life_raw: 8,1 h
+  Dy-159:
+    element: Dy
+    A: 159
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 6.0
+    surface_Bq_cm2: null
+    half_life_s: 12476160.0
+    half_life_raw: 144,4 d
+  Dy-165:
+    element: Dy
+    A: 165
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 3.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 8280.0
+    half_life_raw: 2,3 h
+  Dy-166:
+    element: Dy
+    A: 166
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 1.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 293760.0
+    half_life_raw: 81,6 h
+  Ho-155:
+    element: Ho
+    A: 155
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2880.0
+    half_life_raw: 48,0 m
+  Ho-157:
+    element: Ho
+    A: 157
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 756.0
+    half_life_raw: 12,6 m
+  Ho-159:
+    element: Ho
+    A: 159
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1986.0
+    half_life_raw: 33,1 m
+  Ho-161:
+    element: Ho
+    A: 161
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 9000.0
+    half_life_raw: 2,5 h
+  Ho-162:
+    element: Ho
+    A: 162
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 900.0
+    half_life_raw: 15,0 m
+  Ho-162m:
+    element: Ho
+    A: 162
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4020.0
+    half_life_raw: 67,0 m
+  Ho-164:
+    element: Ho
+    A: 164
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1716.0
+    half_life_raw: 28,6 m
+  Ho-164m:
+    element: Ho
+    A: 164
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2220.0
+    half_life_raw: 37,0 m
+  Ho-166:
+    element: Ho
+    A: 166
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: 2.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 96480.0
+    half_life_raw: 26,8 h
+  Ho-166m:
+    element: Ho
+    A: 166
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.04
+    surface_Bq_cm2: null
+    half_life_s: 37869120000.0
+    half_life_raw: 1,2 E+3 a
+  Ho-167:
+    element: Ho
+    A: 167
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 11160.0
+    half_life_raw: 3,1 h
+  Er-161:
+    element: Er
+    A: 161
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 11520.0
+    half_life_raw: 3,2 h
+  Er-165:
+    element: Er
+    A: 165
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 37440.0
+    half_life_raw: 10,4 h
+  Er-169:
+    element: Er
+    A: 169
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: 200.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 812160.0
+    half_life_raw: 9,4 d
+  Er-171:
+    element: Er
+    A: 171
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 27000.0
+    half_life_raw: 7,5 h
+  Er-172:
+    element: Er
+    A: 172
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 177480.0
+    half_life_raw: 49,3 h
+  Tm-162:
+    element: Tm
+    A: 162
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1302.0
+    half_life_raw: 21,7 m
+  Tm-166:
+    element: Tm
+    A: 166
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 27720.0
+    half_life_raw: 7,7 h
+  Tm-167:
+    element: Tm
+    A: 167
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.6
+    surface_Bq_cm2: null
+    half_life_s: 794879.9999999999
+    half_life_raw: 9,2 d
+  Tm-170:
+    element: Tm
+    A: 170
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 20.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 11111040.0
+    half_life_raw: 128,6 d
+  Tm-171:
+    element: Tm
+    A: 171
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 1000.0
+    HRQ: 300.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 59959440.0
+    half_life_raw: 1,9 a
+  Tm-172:
+    element: Tm
+    A: 172
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 228960.0
+    half_life_raw: 63,6 h
+  Tm-173:
+    element: Tm
+    A: 173
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 29519.999999999996
+    half_life_raw: 8,2 h
+  Tm-175:
+    element: Tm
+    A: 175
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 912.0
+    half_life_raw: 15,2 m
+  Yb-162:
+    element: Yb
+    A: 162
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1134.0
+    half_life_raw: 18,9 m
+  Yb-166:
+    element: Yb
+    A: 166
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 204120.0
+    half_life_raw: 56,7 h
+  Yb-167:
+    element: Yb
+    A: 167
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1050.0
+    half_life_raw: 17,5 m
+  Yb-169:
+    element: Yb
+    A: 169
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 0.3
+    surface_Bq_cm2: null
+    half_life_s: 2764800.0
+    half_life_raw: 32,0 d
+  Yb-175:
+    element: Yb
+    A: 175
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 2.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 362880.0
+    half_life_raw: 4,2 d
+  Yb-177:
+    element: Yb
+    A: 177
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 6840.0
+    half_life_raw: 1,9 h
+  Yb-178:
+    element: Yb
+    A: 178
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4440.0
+    half_life_raw: 74,0 m
+  Lu-169:
+    element: Lu
+    A: 169
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 120959.99999999999
+    half_life_raw: 1,4 d
+  Lu-170:
+    element: Lu
+    A: 170
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 172800.0
+    half_life_raw: 2,0 d
+  Lu-171:
+    element: Lu
+    A: 171
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 717120.0000000001
+    half_life_raw: 8,3 d
+  Lu-172:
+    element: Lu
+    A: 172
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.04
+    surface_Bq_cm2: null
+    half_life_s: 578880.0
+    half_life_raw: 6,7 d
+  Lu-173:
+    element: Lu
+    A: 173
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1.0
+    HRQ: 0.9
+    surface_Bq_cm2: null
+    half_life_s: 41024880.0
+    half_life_raw: 1,3 a
+  Lu-174:
+    element: Lu
+    A: 174
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1.0
+    HRQ: 0.8
+    surface_Bq_cm2: null
+    half_life_s: 113607360.0
+    half_life_raw: 3,6 a
+  Lu-174m:
+    element: Lu
+    A: 174
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 0.6
+    surface_Bq_cm2: null
+    half_life_s: 12268800.0
+    half_life_raw: 142,0 d
+  Lu-176:
+    element: Lu
+    A: 176
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1.262304e+18
+    half_life_raw: 4,0 E+10 a
+  Lu-176m:
+    element: Lu
+    A: 176
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 12960.0
+    half_life_raw: 3,6 h
+  Lu-177:
+    element: Lu
+    A: 177
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 2.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 570240.0
+    half_life_raw: 6,6 d
+  Lu-177m:
+    element: Lu
+    A: 177
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 13849920.000000002
+    half_life_raw: 160,3 d
+  Lu-178:
+    element: Lu
+    A: 178
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1704.0
+    half_life_raw: 28,4 m
+  Lu-178m:
+    element: Lu
+    A: 178
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1386.0
+    half_life_raw: 23,1 m
+  Lu-179:
+    element: Lu
+    A: 179
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 16560.0
+    half_life_raw: 4,6 h
+  Hf-170:
+    element: Hf
+    A: 170
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 57600.0
+    half_life_raw: 16,0 h
+  Hf-172:
+    element: Hf
+    A: 172
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.04
+    surface_Bq_cm2: null
+    half_life_s: 59959440.0
+    half_life_raw: 1,9 a
+  Hf-173:
+    element: Hf
+    A: 173
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 86040.0
+    half_life_raw: 23,9 h
+  Hf-175:
+    element: Hf
+    A: 175
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.2
+    surface_Bq_cm2: null
+    half_life_s: 6048000.0
+    half_life_raw: 70,0 d
+  Hf-180m:
+    element: Hf
+    A: 180
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 19800.0
+    half_life_raw: 5,5 h
+  Hf-181:
+    element: Hf
+    A: 181
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 3663360.0
+    half_life_raw: 42,4 d
+  Hf-182:
+    element: Hf
+    A: 182
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.05
+    surface_Bq_cm2: null
+    half_life_s: 284018400000000.0
+    half_life_raw: 9,0 E+6 a
+  Hf-182m:
+    element: Hf
+    A: 182
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3690.0
+    half_life_raw: 61,5 m
+  Hf-183:
+    element: Hf
+    A: 183
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3840.0
+    half_life_raw: 64,0 m
+  Hf-184:
+    element: Hf
+    A: 184
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 14759.999999999998
+    half_life_raw: 4,1 h
+  Ta-172:
+    element: Ta
+    A: 172
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2208.0
+    half_life_raw: 36,8 m
+  Ta-173:
+    element: Ta
+    A: 173
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 11160.0
+    half_life_raw: 3,1 h
+  Ta-174:
+    element: Ta
+    A: 174
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3960.0000000000005
+    half_life_raw: 1,1 h
+  Ta-175:
+    element: Ta
+    A: 175
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 37800.0
+    half_life_raw: 10,5 h
+  Ta-176:
+    element: Ta
+    A: 176
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 29160.0
+    half_life_raw: 8,1 h
+  Ta-177:
+    element: Ta
+    A: 177
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 203040.0
+    half_life_raw: 56,4 h
+  Ta-178m:
+    element: Ta
+    A: 178
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.07
+    surface_Bq_cm2: null
+    half_life_s: 8640.0
+    half_life_raw: 2,4 h
+  Ta-179:
+    element: Ta
+    A: 179
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 6.0
+    surface_Bq_cm2: null
+    half_life_s: 48211200.0
+    half_life_raw: 558,0 d
+  Ta-180:
+    element: Ta
+    A: 180
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 29160.0
+    half_life_raw: 8,1 h
+  Ta-180m:
+    element: Ta
+    A: 180
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 5.680368e+22
+    half_life_raw: 1,8 E+15 a
+  Ta-182:
+    element: Ta
+    A: 182
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.06
+    surface_Bq_cm2: 1.0
+    half_life_s: 9910080.0
+    half_life_raw: 114,7 d
+  Ta-183:
+    element: Ta
+    A: 183
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 440639.99999999994
+    half_life_raw: 5,1 d
+  Ta-184:
+    element: Ta
+    A: 184
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 31319.999999999996
+    half_life_raw: 8,7 h
+  Ta-185:
+    element: Ta
+    A: 185
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2940.0
+    half_life_raw: 49,0 m
+  Ta-186:
+    element: Ta
+    A: 186
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 630.0
+    half_life_raw: 10,5 m
+  W-176:
+    element: W
+    A: 176
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 9000.0
+    half_life_raw: 2,5 h
+  W-177:
+    element: W
+    A: 177
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 7920.000000000001
+    half_life_raw: 2,2 h
+  W-178:
+    element: W
+    A: 178
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.9
+    surface_Bq_cm2: null
+    half_life_s: 1866240.0000000002
+    half_life_raw: 21,6 d
+  W-179:
+    element: W
+    A: 179
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2226.0
+    half_life_raw: 37,1 m
+  W-181:
+    element: W
+    A: 181
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 5.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 10454400.0
+    half_life_raw: 121,0 d
+  W-185:
+    element: W
+    A: 185
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: 100.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 6488639.999999999
+    half_life_raw: 75,1 d
+  W-187:
+    element: W
+    A: 187
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: 10.0
+    half_life_s: 86040.0
+    half_life_raw: 23,9 h
+  W-188:
+    element: W
+    A: 188
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 1.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 6030720.0
+    half_life_raw: 69,8 d
+  Re-177:
+    element: Re
+    A: 177
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 840.0
+    half_life_raw: 14,0 m
+  Re-178:
+    element: Re
+    A: 178
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 792.0
+    half_life_raw: 13,2 m
+  Re-181:
+    element: Re
+    A: 181
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 71640.0
+    half_life_raw: 19,9 h
+  Re-182:
+    element: Re
+    A: 182
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 230400.0
+    half_life_raw: 64,0 h
+  Re-183:
+    element: Re
+    A: 183
+    isomer: null
+    Bq: null
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 6056639.999999999
+    half_life_raw: 70,1 d
+  Re-184:
+    element: Re
+    A: 184
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.08
+    surface_Bq_cm2: null
+    half_life_s: 3274560.0
+    half_life_raw: 37,9 d
+  Re-184m:
+    element: Re
+    A: 184
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.07
+    surface_Bq_cm2: null
+    half_life_s: 14515200.0
+    half_life_raw: 168,0 d
+  Re-186:
+    element: Re
+    A: 186
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 4.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 324000.0
+    half_life_raw: 90,0 h
+  Re-186m:
+    element: Re
+    A: 186
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 5995944000000.0
+    half_life_raw: 1,9 E+5 a
+  Re-187:
+    element: Re
+    A: 187
+    isomer: null
+    Bq: 1000000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1.3885344e+18
+    half_life_raw: 4,4 E+10 a
+  Re-188:
+    element: Re
+    A: 188
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: 1.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 61200.0
+    half_life_raw: 17,0 h
+  Re-188m:
+    element: Re
+    A: 188
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1116.0
+    half_life_raw: 18,6 m
+  Re-189:
+    element: Re
+    A: 189
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 1.0
+    surface_Bq_cm2: null
+    half_life_s: 87480.0
+    half_life_raw: 24,3 h
+  Os-180:
+    element: Os
+    A: 180
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1290.0
+    half_life_raw: 21,5 m
+  Os-181:
+    element: Os
+    A: 181
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 6480.0
+    half_life_raw: 1,8 h
+  Os-182:
+    element: Os
+    A: 182
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 79560.0
+    half_life_raw: 22,1 h
+  Os-185:
+    element: Os
+    A: 185
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 8104320.0
+    half_life_raw: 93,8 d
+  Os-189m:
+    element: Os
+    A: 189
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 10000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 20880.0
+    half_life_raw: 5,8 h
+  Os-191:
+    element: Os
+    A: 191
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 2.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 1321920.0
+    half_life_raw: 15,3 d
+  Os-191m:
+    element: Os
+    A: 191
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: 1.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 47160.0
+    half_life_raw: 13,1 h
+  Os-193:
+    element: Os
+    A: 193
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 1.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 108360.0
+    half_life_raw: 30,1 h
+  Os-194:
+    element: Os
+    A: 194
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: 0.7
+    surface_Bq_cm2: null
+    half_life_s: 189345600.0
+    half_life_raw: 6,0 a
+  Ir-182:
+    element: Ir
+    A: 182
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 900.0
+    half_life_raw: 15,0 m
+  Ir-184:
+    element: Ir
+    A: 184
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 11160.0
+    half_life_raw: 3,1 h
+  Ir-185:
+    element: Ir
+    A: 185
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 51840.0
+    half_life_raw: 14,4 h
+  Ir-186:
+    element: Ir
+    A: 186
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 59760.00000000001
+    half_life_raw: 16,6 h
+  Ir-187:
+    element: Ir
+    A: 187
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 37800.0
+    half_life_raw: 10,5 h
+  Ir-188:
+    element: Ir
+    A: 188
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 149400.0
+    half_life_raw: 41,5 h
+  Ir-189:
+    element: Ir
+    A: 189
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 1.0
+    surface_Bq_cm2: null
+    half_life_s: 1140480.0
+    half_life_raw: 13,2 d
+  Ir-190:
+    element: Ir
+    A: 190
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1.0
+    HRQ: 0.05
+    surface_Bq_cm2: 1.0
+    half_life_s: 1019520.0000000001
+    half_life_raw: 11,8 d
+  Ir-192:
+    element: Ir
+    A: 192
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 0.08
+    surface_Bq_cm2: 1.0
+    half_life_s: 6376320.0
+    half_life_raw: 73,8 d
+  Ir-192m:
+    element: Ir
+    A: 192
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 84.0
+    half_life_raw: 1,4 m
+  Ir-193m:
+    element: Ir
+    A: 193
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 10000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 907200.0
+    half_life_raw: 10,5 d
+  Ir-194:
+    element: Ir
+    A: 194
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: 0.7
+    surface_Bq_cm2: 10.0
+    half_life_s: 69480.0
+    half_life_raw: 19,3 h
+  Ir-195:
+    element: Ir
+    A: 195
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 9000.0
+    half_life_raw: 2,5 h
+  Ir-195m:
+    element: Ir
+    A: 195
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 13680.0
+    half_life_raw: 3,8 h
+  Pt-186:
+    element: Pt
+    A: 186
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 7560.0
+    half_life_raw: 2,1 h
+  Pt-188:
+    element: Pt
+    A: 188
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.04
+    surface_Bq_cm2: null
+    half_life_s: 881279.9999999999
+    half_life_raw: 10,2 d
+  Pt-189:
+    element: Pt
+    A: 189
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 39240.0
+    half_life_raw: 10,9 h
+  Pt-190:
+    element: Pt
+    A: 190
+    isomer: null
+    Bq: null
+    Bq_g: 1.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2.051244e+19
+    half_life_raw: 6,5 E+11 a
+  Pt-191:
+    element: Pt
+    A: 191
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.3
+    surface_Bq_cm2: 10.0
+    half_life_s: 241919.99999999997
+    half_life_raw: 2,8 d
+  Pt-193:
+    element: Pt
+    A: 193
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 3000.0
+    surface_Bq_cm2: null
+    half_life_s: 1577880000.0
+    half_life_raw: 50,0 a
+  Pt-193m:
+    element: Pt
+    A: 193
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: 10.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 371520.0
+    half_life_raw: 4,3 d
+  Pt-195m:
+    element: Pt
+    A: 195
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 2.0
+    surface_Bq_cm2: null
+    half_life_s: 354239.99999999994
+    half_life_raw: 4,1 d
+  Pt-197:
+    element: Pt
+    A: 197
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 4.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 71640.0
+    half_life_raw: 19,9 h
+  Pt-197m:
+    element: Pt
+    A: 197
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.9
+    surface_Bq_cm2: 10.0
+    half_life_s: 5718.0
+    half_life_raw: 95,3 m
+  Pt-199:
+    element: Pt
+    A: 199
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1848.0
+    half_life_raw: 30,8 m
+  Pt-200:
+    element: Pt
+    A: 200
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 45000.0
+    half_life_raw: 12,5 h
+  Au-193:
+    element: Au
+    A: 193
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 0.6
+    surface_Bq_cm2: null
+    half_life_s: 63720.0
+    half_life_raw: 17,7 h
+  Au-194:
+    element: Au
+    A: 194
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.07
+    surface_Bq_cm2: null
+    half_life_s: 136800.0
+    half_life_raw: 38,0 h
+  Au-195:
+    element: Au
+    A: 195
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 2.0
+    surface_Bq_cm2: null
+    half_life_s: 16079040.0
+    half_life_raw: 186,1 d
+  Au-196:
+    element: Au
+    A: 196
+    isomer: null
+    Bq: null
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 535680.0
+    half_life_raw: 6,2 d
+  Au-198:
+    element: Au
+    A: 198
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 233280.00000000003
+    half_life_raw: 2,7 d
+  Au-198m:
+    element: Au
+    A: 198
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 198719.99999999997
+    half_life_raw: 2,3 d
+  Au-199:
+    element: Au
+    A: 199
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.9
+    surface_Bq_cm2: 10.0
+    half_life_s: 267840.0
+    half_life_raw: 3,1 d
+  Au-200:
+    element: Au
+    A: 200
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2904.0
+    half_life_raw: 48,4 m
+  Au-200m:
+    element: Au
+    A: 200
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 67320.0
+    half_life_raw: 18,7 h
+  Au-201:
+    element: Au
+    A: 201
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1560.0
+    half_life_raw: 26,0 m
+  Hg-193:
+    element: Hg
+    A: 193
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 13680.0
+    half_life_raw: 3,8 h
+  Hg-193m:
+    element: Hg
+    A: 193
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 42480.0
+    half_life_raw: 11,8 h
+  Hg-194:
+    element: Hg
+    A: 194
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.07
+    surface_Bq_cm2: null
+    half_life_s: 14011574400.0
+    half_life_raw: 444,0 a
+  Hg-195:
+    element: Hg
+    A: 195
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 35640.0
+    half_life_raw: 9,9 h
+  Hg-195m:
+    element: Hg
+    A: 195
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.2
+    surface_Bq_cm2: null
+    half_life_s: 149760.0
+    half_life_raw: 41,6 h
+  Hg-197:
+    element: Hg
+    A: 197
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 2.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 232559.99999999997
+    half_life_raw: 64,6 h
+  Hg-197m:
+    element: Hg
+    A: 197
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 0.7
+    surface_Bq_cm2: 10.0
+    half_life_s: 85680.0
+    half_life_raw: 23,8 h
+  Hg-203:
+    element: Hg
+    A: 203
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.3
+    surface_Bq_cm2: 10.0
+    half_life_s: 4026240.0
+    half_life_raw: 46,6 d
+  Tl-194:
+    element: Tl
+    A: 194
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1980.0
+    half_life_raw: 33,0 m
+  Tl-194m:
+    element: Tl
+    A: 194
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1967.9999999999998
+    half_life_raw: 32,8 m
+  Tl-195:
+    element: Tl
+    A: 195
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4320.0
+    half_life_raw: 1,2 h
+  Tl-197:
+    element: Tl
+    A: 197
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 10080.0
+    half_life_raw: 2,8 h
+  Tl-198:
+    element: Tl
+    A: 198
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 19080.0
+    half_life_raw: 5,3 h
+  Tl-198m:
+    element: Tl
+    A: 198
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 6840.0
+    half_life_raw: 1,9 h
+  Tl-199:
+    element: Tl
+    A: 199
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 26640.0
+    half_life_raw: 7,4 h
+  Tl-200:
+    element: Tl
+    A: 200
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.05
+    surface_Bq_cm2: 1.0
+    half_life_s: 93960.0
+    half_life_raw: 26,1 h
+  Tl-201:
+    element: Tl
+    A: 201
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 1.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 262800.0
+    half_life_raw: 73,0 h
+  Tl-202:
+    element: Tl
+    A: 202
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 1054080.0
+    half_life_raw: 12,2 d
+  Tl-204:
+    element: Tl
+    A: 204
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 20.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 119918880.0
+    half_life_raw: 3,8 a
+  Pb-195m:
+    element: Pb
+    A: 195
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 900.0
+    half_life_raw: 15,0 m
+  Pb-198:
+    element: Pb
+    A: 198
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 8640.0
+    half_life_raw: 2,4 h
+  Pb-199:
+    element: Pb
+    A: 199
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 5400.0
+    half_life_raw: 1,5 h
+  Pb-200:
+    element: Pb
+    A: 200
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 77400.0
+    half_life_raw: 21,5 h
+  Pb-201:
+    element: Pb
+    A: 201
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.09
+    surface_Bq_cm2: null
+    half_life_s: 33840.0
+    half_life_raw: 9,4 h
+  Pb-202:
+    element: Pb
+    A: 202
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.2
+    surface_Bq_cm2: null
+    half_life_s: 1672552800000.0
+    half_life_raw: 5,3 E+4 a
+  Pb-202m:
+    element: Pb
+    A: 202
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 12960.0
+    half_life_raw: 3,6 h
+  Pb-203:
+    element: Pb
+    A: 203
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.2
+    surface_Bq_cm2: 10.0
+    half_life_s: 186840.0
+    half_life_raw: 51,9 h
+  Pb-205:
+    element: Pb
+    A: 205
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 473364000000000.0
+    half_life_raw: 1,5 E+7 a
+  Pb-209:
+    element: Pb
+    A: 209
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 11880.0
+    half_life_raw: 3,3 h
+  Pb-210:
+    element: Pb
+    A: 210
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.3
+    surface_Bq_cm2: 1.0
+    half_life_s: 700578720.0
+    half_life_raw: 22,2 a
+  Pb-211:
+    element: Pb
+    A: 211
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2166.0
+    half_life_raw: 36,1 m
+  Pb-212:
+    element: Pb
+    A: 212
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 38160.0
+    half_life_raw: 10,6 h
+  Pb-214:
+    element: Pb
+    A: 214
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1608.0
+    half_life_raw: 26,8 m
+  Bi-200:
+    element: Bi
+    A: 200
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2184.0
+    half_life_raw: 36,4 m
+  Bi-201:
+    element: Bi
+    A: 201
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 6480.0
+    half_life_raw: 1,8 h
+  Bi-202:
+    element: Bi
+    A: 202
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 6120.0
+    half_life_raw: 1,7 h
+  Bi-203:
+    element: Bi
+    A: 203
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 42480.0
+    half_life_raw: 11,8 h
+  Bi-205:
+    element: Bi
+    A: 205
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.04
+    surface_Bq_cm2: null
+    half_life_s: 1321920.0
+    half_life_raw: 15,3 d
+  Bi-206:
+    element: Bi
+    A: 206
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: 0.02
+    surface_Bq_cm2: 1.0
+    half_life_s: 535680.0
+    half_life_raw: 6,2 d
+  Bi-207:
+    element: Bi
+    A: 207
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 0.1
+    HRQ: 0.05
+    surface_Bq_cm2: 1.0
+    half_life_s: 1003531680.0
+    half_life_raw: 31,8 a
+  Bi-208:
+    element: Bi
+    A: 208
+    isomer: null
+    Bq: null
+    Bq_g: 0.01
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 11676312000000.0
+    half_life_raw: 3,7 E+5 a
+  Bi-210:
+    element: Bi
+    A: 210
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: 8.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 432000.0
+    half_life_raw: 5,0 d
+  Bi-210m:
+    element: Bi
+    A: 210
+    isomer: m
+    Bq: 100000.0
+    Bq_g: 0.1
+    HRQ: 0.3
+    surface_Bq_cm2: null
+    half_life_s: 94672800000000.0
+    half_life_raw: 3,0 E+6 a
+  Bi-212:
+    element: Bi
+    A: 212
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.05
+    surface_Bq_cm2: 1.0
+    half_life_s: 3630.0
+    half_life_raw: 60,5 m
+  Bi-213:
+    element: Bi
+    A: 213
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2736.0
+    half_life_raw: 45,6 m
+  Bi-214:
+    element: Bi
+    A: 214
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1194.0
+    half_life_raw: 19,9 m
+  Po-203:
+    element: Po
+    A: 203
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 2202.0
+    half_life_raw: 36,7 m
+  Po-205:
+    element: Po
+    A: 205
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 6120.0
+    half_life_raw: 1,7 h
+  Po-206:
+    element: Po
+    A: 206
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 760320.0000000001
+    half_life_raw: 8,8 d
+  Po-207:
+    element: Po
+    A: 207
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 20880.0
+    half_life_raw: 5,8 h
+  Po-208:
+    element: Po
+    A: 208
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 91517040.0
+    half_life_raw: 2,9 a
+  Po-209:
+    element: Po
+    A: 209
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3218875200.0
+    half_life_raw: 102,0 a
+  Po-210:
+    element: Po
+    A: 210
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 0.06
+    surface_Bq_cm2: 1.0
+    half_life_s: 11957760.0
+    half_life_raw: 138,4 d
+  At-207:
+    element: At
+    A: 207
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 6480.0
+    half_life_raw: 1,8 h
+  At-211:
+    element: At
+    A: 211
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: 0.5
+    surface_Bq_cm2: 10.0
+    half_life_s: 25920.0
+    half_life_raw: 7,2 h
+  Rn-220:
+    element: Rn
+    A: 220
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 55.8
+    half_life_raw: 55,8 s
+  Rn-222:
+    element: Rn
+    A: 222
+    isomer: null
+    Bq: 100000000.0
+    Bq_g: 10.0
+    HRQ: 0.04
+    surface_Bq_cm2: null
+    half_life_s: 328320.0
+    half_life_raw: 3,8 d
+  Fr-222:
+    element: Fr
+    A: 222
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 852.0
+    half_life_raw: 14,2 m
+  Fr-223:
+    element: Fr
+    A: 223
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1308.0
+    half_life_raw: 21,8 m
+  Ra-223:
+    element: Ra
+    A: 223
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 984960.0
+    half_life_raw: 11,4 d
+  Ra-224:
+    element: Ra
+    A: 224
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.05
+    surface_Bq_cm2: 1.0
+    half_life_s: 311040.0
+    half_life_raw: 3,6 d
+  Ra-225:
+    element: Ra
+    A: 225
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: 0.1
+    half_life_s: 1278720.0
+    half_life_raw: 14,8 d
+  Ra-226:
+    element: Ra
+    A: 226
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.01
+    HRQ: 0.04
+    surface_Bq_cm2: 1.0
+    half_life_s: 50492160000.0
+    half_life_raw: 1,6 E+3 a
+  Ra-227:
+    element: Ra
+    A: 227
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 10.0
+    half_life_s: 2532.0
+    half_life_raw: 42,2 m
+  Ra-228:
+    element: Ra
+    A: 228
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 0.1
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 183034080.0
+    half_life_raw: 5,8 a
+  Ac-224:
+    element: Ac
+    A: 224
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 10080.0
+    half_life_raw: 2,8 h
+  Ac-225:
+    element: Ac
+    A: 225
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 10.0
+    HRQ: 0.09
+    surface_Bq_cm2: null
+    half_life_s: 864000.0
+    half_life_raw: 10,0 d
+  Ac-226:
+    element: Ac
+    A: 226
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 105840.0
+    half_life_raw: 29,4 h
+  Ac-227:
+    element: Ac
+    A: 227
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 0.01
+    HRQ: 0.04
+    surface_Bq_cm2: 1.0
+    half_life_s: 687955680.0
+    half_life_raw: 21,8 a
+  Ac-228:
+    element: Ac
+    A: 228
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.03
+    surface_Bq_cm2: 1.0
+    half_life_s: 22320.0
+    half_life_raw: 6,2 h
+  Th-226:
+    element: Th
+    A: 226
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: 10.0
+    half_life_s: 1836.0
+    half_life_raw: 30,6 m
+  Th-227:
+    element: Th
+    A: 227
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 10.0
+    HRQ: 0.08
+    surface_Bq_cm2: 0.1
+    half_life_s: 1615680.0
+    half_life_raw: 18,7 d
+  Th-228:
+    element: Th
+    A: 228
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.04
+    surface_Bq_cm2: 0.1
+    half_life_s: 59959440.0
+    half_life_raw: 1,9 a
+  Th-229:
+    element: Th
+    A: 229
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 0.1
+    HRQ: 0.01
+    surface_Bq_cm2: 0.1
+    half_life_s: 230370480000.0
+    half_life_raw: 7,3 E+3 a
+  Th-230:
+    element: Th
+    A: 230
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.07
+    surface_Bq_cm2: 0.1
+    half_life_s: 2366820000000.0
+    half_life_raw: 7,5 E+4 a
+  Th-231:
+    element: Th
+    A: 231
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: 10.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 91800.0
+    half_life_raw: 25,5 h
+  Th-232:
+    element: Th
+    A: 232
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 0.1
+    half_life_s: 4.418064e+17
+    half_life_raw: 1,4 E+10 a
+  Th-234:
+    element: Th
+    A: 234
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: 2.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 2082240.0000000002
+    half_life_raw: 24,1 d
+  Pa-227:
+    element: Pa
+    A: 227
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2298.0
+    half_life_raw: 38,3 m
+  Pa-228:
+    element: Pa
+    A: 228
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 79200.0
+    half_life_raw: 22,0 h
+  Pa-230:
+    element: Pa
+    A: 230
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 1503359.9999999998
+    half_life_raw: 17,4 d
+  Pa-231:
+    element: Pa
+    A: 231
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 0.01
+    HRQ: 0.06
+    surface_Bq_cm2: 0.01
+    half_life_s: 1041400800000.0
+    half_life_raw: 3,3 E+4 a
+  Pa-232:
+    element: Pa
+    A: 232
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 112320.0
+    half_life_raw: 1,3 d
+  Pa-233:
+    element: Pa
+    A: 233
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10.0
+    HRQ: 0.4
+    surface_Bq_cm2: 10.0
+    half_life_s: 2332800.0
+    half_life_raw: 27,0 d
+  Pa-234:
+    element: Pa
+    A: 234
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 24480.0
+    half_life_raw: 6,8 h
+  U-230:
+    element: U
+    A: 230
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.04
+    surface_Bq_cm2: 0.1
+    half_life_s: 1797120.0
+    half_life_raw: 20,8 d
+  U-231:
+    element: U
+    A: 231
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 10.0
+    half_life_s: 362880.0
+    half_life_raw: 4,2 d
+  U-232:
+    element: U
+    A: 232
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 0.1
+    HRQ: 0.06
+    surface_Bq_cm2: 0.1
+    half_life_s: 2202720480.0
+    half_life_raw: 69,8 a
+  U-233:
+    element: U
+    A: 233
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 0.07
+    surface_Bq_cm2: 1.0
+    half_life_s: 5049216000000.0
+    half_life_raw: 1,6 E+5 a
+  U-234:
+    element: U
+    A: 234
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 7889400000000.0
+    half_life_raw: 2,5 E+5 a
+  U-235:
+    element: U
+    A: 235
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 8.0e-05
+    surface_Bq_cm2: 1.0
+    half_life_s: 2.209032e+16
+    half_life_raw: 7,0 E+8 a
+  U-236:
+    element: U
+    A: 236
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 10.0
+    HRQ: 0.2
+    surface_Bq_cm2: 1.0
+    half_life_s: 757382400000000.0
+    half_life_raw: 2,4 E+7 a
+  U-237:
+    element: U
+    A: 237
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 10.0
+    half_life_s: 587520.0
+    half_life_raw: 6,8 d
+  U-238:
+    element: U
+    A: 238
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 1.420092e+17
+    half_life_raw: 4,5 E+9 a
+  U-239:
+    element: U
+    A: 239
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 100.0
+    half_life_s: 1410.0
+    half_life_raw: 23,5 m
+  U-240:
+    element: U
+    A: 240
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 10.0
+    half_life_s: 50760.0
+    half_life_raw: 14,1 h
+  Np-232:
+    element: Np
+    A: 232
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 882.0
+    half_life_raw: 14,7 m
+  Np-233:
+    element: Np
+    A: 233
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2172.0
+    half_life_raw: 36,2 m
+  Np-234:
+    element: Np
+    A: 234
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 380160.00000000006
+    half_life_raw: 4,4 d
+  Np-235:
+    element: Np
+    A: 235
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 100.0
+    surface_Bq_cm2: null
+    half_life_s: 34205760.0
+    half_life_raw: 395,9 d
+  Np-236:
+    element: Np
+    A: 236
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: 0.007
+    surface_Bq_cm2: null
+    half_life_s: 4733640000000.0
+    half_life_raw: 1,5 E+5 a
+  Np-236m:
+    element: Np
+    A: 236
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: 0.8
+    surface_Bq_cm2: null
+    half_life_s: 81000.0
+    half_life_raw: 22,5 h
+  Np-237:
+    element: Np
+    A: 237
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 1.0
+    HRQ: 0.07
+    surface_Bq_cm2: 0.1
+    half_life_s: 66270960000000.0
+    half_life_raw: 2,1 E+6 a
+  Np-238:
+    element: Np
+    A: 238
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 181440.0
+    half_life_raw: 2,1 d
+  Np-239:
+    element: Np
+    A: 239
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 0.5
+    surface_Bq_cm2: 10.0
+    half_life_s: 207360.0
+    half_life_raw: 2,4 d
+  Np-240:
+    element: Np
+    A: 240
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 3900.0
+    half_life_raw: 65,0 m
+  Pu-234:
+    element: Pu
+    A: 234
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 10.0
+    half_life_s: 31680.000000000004
+    half_life_raw: 8,8 h
+  Pu-235:
+    element: Pu
+    A: 235
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 10.0
+    half_life_s: 1518.0
+    half_life_raw: 25,3 m
+  Pu-236:
+    element: Pu
+    A: 236
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: 0.1
+    half_life_s: 91517040.0
+    half_life_raw: 2,9 a
+  Pu-237:
+    element: Pu
+    A: 237
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: 2.0
+    surface_Bq_cm2: 100.0
+    half_life_s: 3913919.9999999995
+    half_life_raw: 45,3 d
+  Pu-238:
+    element: Pu
+    A: 238
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.06
+    surface_Bq_cm2: 0.1
+    half_life_s: 2767601520.0
+    half_life_raw: 87,7 a
+  Pu-239:
+    element: Pu
+    A: 239
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.06
+    surface_Bq_cm2: 0.1
+    half_life_s: 757382400000.0
+    half_life_raw: 2,4 E+4 a
+  Pu-240:
+    element: Pu
+    A: 240
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 0.1
+    HRQ: 0.06
+    surface_Bq_cm2: 0.1
+    half_life_s: 208280160000.0
+    half_life_raw: 6,6 E+3 a
+  Pu-241:
+    element: Pu
+    A: 241
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 3.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 451273680.0
+    half_life_raw: 14,3 a
+  Pu-242:
+    element: Pu
+    A: 242
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.07
+    surface_Bq_cm2: 0.1
+    half_life_s: 11676312000000.0
+    half_life_raw: 3,7 E+5 a
+  Pu-243:
+    element: Pu
+    A: 243
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: 100.0
+    half_life_s: 18000.0
+    half_life_raw: 5,0 h
+  Pu-244:
+    element: Pu
+    A: 244
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.0003
+    surface_Bq_cm2: 0.1
+    half_life_s: 2524608000000000.0
+    half_life_raw: 8,0 E+7 a
+  Pu-245:
+    element: Pu
+    A: 245
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 37800.0
+    half_life_raw: 10,5 h
+  Pu-246:
+    element: Pu
+    A: 246
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 941760.0
+    half_life_raw: 10,9 d
+  Am-237:
+    element: Am
+    A: 237
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4380.0
+    half_life_raw: 73,0 m
+  Am-238:
+    element: Am
+    A: 238
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 5760.0
+    half_life_raw: 1,6 h
+  Am-239:
+    element: Am
+    A: 239
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 42840.0
+    half_life_raw: 11,9 h
+  Am-240:
+    element: Am
+    A: 240
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 182880.0
+    half_life_raw: 50,8 h
+  Am-241:
+    element: Am
+    A: 241
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.06
+    surface_Bq_cm2: 0.1
+    half_life_s: 13658129280.0
+    half_life_raw: 432,8 a
+  Am-242:
+    element: Am
+    A: 242
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: 100.0
+    half_life_s: 57600.0
+    half_life_raw: 16,0 h
+  Am-242m:
+    element: Am
+    A: 242
+    isomer: m
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.3
+    surface_Bq_cm2: 0.1
+    half_life_s: 4449621600.0
+    half_life_raw: 141,0 a
+  Am-243:
+    element: Am
+    A: 243
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 0.1
+    HRQ: 0.2
+    surface_Bq_cm2: 0.1
+    half_life_s: 233526240000.0
+    half_life_raw: 7,4 E+3 a
+  Am-244:
+    element: Am
+    A: 244
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.09
+    surface_Bq_cm2: null
+    half_life_s: 36360.0
+    half_life_raw: 10,1 h
+  Am-244m:
+    element: Am
+    A: 244
+    isomer: m
+    Bq: 10000000.0
+    Bq_g: 10000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1560.0
+    half_life_raw: 26,0 m
+  Am-245:
+    element: Am
+    A: 245
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 7560.0
+    half_life_raw: 2,1 h
+  Am-246:
+    element: Am
+    A: 246
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 2340.0
+    half_life_raw: 39,0 m
+  Am-246m:
+    element: Am
+    A: 246
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1500.0
+    half_life_raw: 25,0 m
+  Cm-238:
+    element: Cm
+    A: 238
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 8640.0
+    half_life_raw: 2,4 h
+  Cm-240:
+    element: Cm
+    A: 240
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: 0.3
+    surface_Bq_cm2: null
+    half_life_s: 2332800.0
+    half_life_raw: 27,0 d
+  Cm-241:
+    element: Cm
+    A: 241
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: 0.1
+    surface_Bq_cm2: null
+    half_life_s: 2833919.9999999995
+    half_life_raw: 32,8 d
+  Cm-242:
+    element: Cm
+    A: 242
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: 0.04
+    surface_Bq_cm2: 1.0
+    half_life_s: 14074560.0
+    half_life_raw: 162,9 d
+  Cm-243:
+    element: Cm
+    A: 243
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 0.2
+    surface_Bq_cm2: 0.1
+    half_life_s: 946728000.0
+    half_life_raw: 30,0 a
+  Cm-244:
+    element: Cm
+    A: 244
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 0.05
+    surface_Bq_cm2: 0.1
+    half_life_s: 568036800.0
+    half_life_raw: 18,0 a
+  Cm-245:
+    element: Cm
+    A: 245
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 0.1
+    HRQ: 0.09
+    surface_Bq_cm2: 0.1
+    half_life_s: 268239600000.0
+    half_life_raw: 8,5 E+3 a
+  Cm-246:
+    element: Cm
+    A: 246
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 0.1
+    HRQ: 0.2
+    surface_Bq_cm2: 0.1
+    half_life_s: 148320720000.0
+    half_life_raw: 4,7 E+3 a
+  Cm-247:
+    element: Cm
+    A: 247
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.001
+    surface_Bq_cm2: 0.1
+    half_life_s: 504921600000000.0
+    half_life_raw: 1,6 E+7 a
+  Cm-248:
+    element: Cm
+    A: 248
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 0.1
+    HRQ: 0.005
+    surface_Bq_cm2: 0.01
+    half_life_s: 10729584000000.0
+    half_life_raw: 3,4 E+5 a
+  Cm-249:
+    element: Cm
+    A: 249
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 3852.0
+    half_life_raw: 64,2 m
+  Cm-250:
+    element: Cm
+    A: 250
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 0.01
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 252460800000.0
+    half_life_raw: 8,0 E+3 a
+  Bk-245:
+    element: Bk
+    A: 245
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 423360.00000000006
+    half_life_raw: 4,9 d
+  Bk-246:
+    element: Bk
+    A: 246
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 155520.0
+    half_life_raw: 1,8 d
+  Bk-247:
+    element: Bk
+    A: 247
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: 0.08
+    surface_Bq_cm2: null
+    half_life_s: 44180640000.0
+    half_life_raw: 1,4 E+3 a
+  Bk-249:
+    element: Bk
+    A: 249
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: 10.0
+    surface_Bq_cm2: 10.0
+    half_life_s: 27648000.0
+    half_life_raw: 320,0 d
+  Bk-250:
+    element: Bk
+    A: 250
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 11520.0
+    half_life_raw: 3,2 h
+  Cf-244:
+    element: Cf
+    A: 244
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 1164.0
+    half_life_raw: 19,4 m
+  Cf-246:
+    element: Cf
+    A: 246
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: 10.0
+    half_life_s: 128520.00000000001
+    half_life_raw: 35,7 h
+  Cf-248:
+    element: Cf
+    A: 248
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: 1.0
+    half_life_s: 28814400.0
+    half_life_raw: 333,5 d
+  Cf-249:
+    element: Cf
+    A: 249
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 0.1
+    HRQ: 0.1
+    surface_Bq_cm2: 0.1
+    half_life_s: 11076717600.0
+    half_life_raw: 351,0 a
+  Cf-250:
+    element: Cf
+    A: 250
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 0.1
+    surface_Bq_cm2: 0.1
+    half_life_s: 413404560.0
+    half_life_raw: 13,1 a
+  Cf-251:
+    element: Cf
+    A: 251
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 0.1
+    HRQ: 0.1
+    surface_Bq_cm2: 0.1
+    half_life_s: 28338724800.0
+    half_life_raw: 898,0 a
+  Cf-252:
+    element: Cf
+    A: 252
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 1.0
+    HRQ: 0.02
+    surface_Bq_cm2: 0.1
+    half_life_s: 82049760.0
+    half_life_raw: 2,6 a
+  Cf-253:
+    element: Cf
+    A: 253
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: 0.4
+    surface_Bq_cm2: 1.0
+    half_life_s: 1537920.0
+    half_life_raw: 17,8 d
+  Cf-254:
+    element: Cf
+    A: 254
+    isomer: null
+    Bq: 1000.0
+    Bq_g: 1.0
+    HRQ: 0.0003
+    surface_Bq_cm2: 0.1
+    half_life_s: 5227200.0
+    half_life_raw: 60,5 d
+  Es-250:
+    element: Es
+    A: 250
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 30960.0
+    half_life_raw: 8,6 h
+  Es-251:
+    element: Es
+    A: 251
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 118800.0
+    half_life_raw: 33,0 h
+  Es-253:
+    element: Es
+    A: 253
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 1771200.0
+    half_life_raw: 20,5 d
+  Es-254:
+    element: Es
+    A: 254
+    isomer: null
+    Bq: 10000.0
+    Bq_g: 0.1
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 23820480.0
+    half_life_raw: 275,7 d
+  Es-254m:
+    element: Es
+    A: 254
+    isomer: m
+    Bq: 1000000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: 1.0
+    half_life_s: 141480.0
+    half_life_raw: 39,3 h
+  Fm-252:
+    element: Fm
+    A: 252
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 1000.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 91440.0
+    half_life_raw: 25,4 h
+  Fm-253:
+    element: Fm
+    A: 253
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 259200.0
+    half_life_raw: 3,0 d
+  Fm-254:
+    element: Fm
+    A: 254
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 10000.0
+    HRQ: null
+    surface_Bq_cm2: 100.0
+    half_life_s: 11520.0
+    half_life_raw: 3,2 h
+  Fm-255:
+    element: Fm
+    A: 255
+    isomer: null
+    Bq: 1000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: 10.0
+    half_life_s: 72360.0
+    half_life_raw: 20,1 h
+  Fm-257:
+    element: Fm
+    A: 257
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 1.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 8683200.0
+    half_life_raw: 100,5 d
+  Md-257:
+    element: Md
+    A: 257
+    isomer: null
+    Bq: 10000000.0
+    Bq_g: 100.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 19800.0
+    half_life_raw: 5,5 h
+  Md-258:
+    element: Md
+    A: 258
+    isomer: null
+    Bq: 100000.0
+    Bq_g: 10.0
+    HRQ: null
+    surface_Bq_cm2: null
+    half_life_s: 4449600.0
+    half_life_raw: 51,5 d

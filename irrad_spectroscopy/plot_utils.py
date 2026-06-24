@@ -53,7 +53,7 @@ def plot_calibration(x, popt, perr, axis=None, calib_type=None, func=lin):
         ax1.grid()
     
     
-def plot_spectrum(counts, channels=None, peaks=None, bkg=None, plot_calib=False, energy_cal=None, title=None, output_plot=None, peak_fit=gauss):
+def plot_spectrum(counts, channels=None, peaks=None, bkg=None, plot_calib=False, energy_cal=None, title=None, output_plot=None, peak_fit=gauss, log_scale=False, spectrum_label='Spectrum'):
 
     # some sanity checks for input data
     # check if input is np.array
@@ -81,7 +81,12 @@ def plot_spectrum(counts, channels=None, peaks=None, bkg=None, plot_calib=False,
     plt.grid()
     
     # plot spectrum first
-    plt.errorbar(_chnnls, _cnts, yerr=np.sqrt(_cnts), marker='.',lw=1, ls='None', label='Spectrum')
+    plt.errorbar(_chnnls, _cnts, yerr=np.sqrt(_cnts), marker='.',lw=1, ls='None', label=spectrum_label)
+    
+    # apply log scale if requested
+    if log_scale:
+        plt.yscale('log')
+        plt.ylim(bottom=max(_cnts[_cnts > 0].min() * 0.5, 1) if np.any(_cnts > 0) else 1)
     
     ### plot rest
 
@@ -119,13 +124,14 @@ def plot_spectrum(counts, channels=None, peaks=None, bkg=None, plot_calib=False,
             plt.plot(_tmp_x, tmp_fit(_tmp_x, *peaks[p]['peak_fit']['popt']), lw=1, ls='--', zorder=10, c='r')
             
             # plot signal and background
+            _zero_floor = np.ones_like(_tmp_x) * 0.5  # avoid log(0)
             if local_flag:
                 plt.plot(_tmp_x, lin(_tmp_x, *peaks[p]['background']['popt']), lw=1, ls='--', zorder=10, c='k')
                 plt.fill_between(_tmp_x, tmp_fit(_tmp_x, *peaks[p]['peak_fit']['popt']), lin(_tmp_x, *peaks[p]['background']['popt']), color='r', alpha=0.3)
-                plt.fill_between(_tmp_x, lin(_tmp_x, *peaks[p]['background']['popt']), np.zeros_like(_tmp_x), color='k', alpha=0.3)
+                plt.fill_between(_tmp_x, lin(_tmp_x, *peaks[p]['background']['popt']), _zero_floor, color='k', alpha=0.3)
             else:
                 plt.fill_between(_tmp_x, tmp_fit(_tmp_x, *peaks[p]['peak_fit']['popt']), bkg(_tmp_x), color='r', alpha=0.3)
-                plt.fill_between(_tmp_x, bkg(_tmp_x), np.zeros_like(_tmp_x), color='k', alpha=0.3)
+                plt.fill_between(_tmp_x, bkg(_tmp_x), _zero_floor, color='k', alpha=0.3)
             
             # set text in plot
             _mu = peaks[p]['peak_fit']['popt'][0]

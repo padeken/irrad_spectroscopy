@@ -999,3 +999,116 @@ def get_dose(peaks, distance, time=None, material='air'):
     dose['sigma'] **= 0.5
 
     return dose
+
+
+def subtract_background(sig_counts, bg_counts, sig_live, bg_live):
+    """Scale background counts to signal live-time and subtract.
+
+    Parameters
+    ----------
+    sig_counts : ndarray
+        Signal spectrum counts
+    bg_counts : ndarray
+        Background spectrum counts
+    sig_live : float
+        Signal live time in seconds
+    bg_live : float
+        Background live time in seconds
+
+    Returns
+    -------
+    net_counts : ndarray
+        Background-subtracted counts (clipped to >= 0)
+    scale : float
+        Scale factor applied to background
+    """
+    scale = sig_live / bg_live
+    net = sig_counts.astype(float) - bg_counts.astype(float) * scale
+    net = np.clip(net, 0, None)
+    return np.round(net).astype(int), scale
+
+
+def fit_peak(x, y, mu_est, sigma_est, bkg_est):
+    """Fit a single Gaussian peak with optional local linear background.
+
+    Parameters
+    ----------
+    x : ndarray
+        Energy values (keV)
+    y : ndarray
+        Count values
+    mu_est : float
+        Estimated peak position (keV)
+    sigma_est : float
+        Estimated peak width (keV)
+    bkg_est : float
+        Estimated background level at peak position
+
+    Returns
+    -------
+    result : dict or None
+        Dictionary with fit parameters, errors, integration limits, and
+        background info. None if fit failed.
+    """
+    fit_half = max(8 * abs(sigma_est), 5.0)
+    step = x[1] - x[0] if len(x) > 1 else 1.0
+    low = max(int((mu_est - fit_half - x[0]) / step), 0)
+    high = min(int((mu_est + fit_half - x[0]) / step) + 1, len(x))
+    if high - low < 5:
+        return None
+    x_fit = x[low:high]
+    y_fit = y[low:high]
+    try:
+        h_est = max(y_fit.max() - bkg_est, 1)
+        sigma_lo, sigma_hi = 0.3, 2.5
+        popt, pcov = curve_fit(
+            gauss,
+            x_fit,
+            y_fit,
+            p0=(mu_est, sigma_est, h_est),
+            bounds=([mu_est - 3, sigma_lo, 0], [mu_est + 3, sigma_hi, h_est * 100]),
+            sigma=np.sqrt(np.maximum(y_fit, 1)),
+            absolute_sigma=True,
+            maxfev=5000,
+        )
+        perr = np.sqrt(np.diag(pcov))
+
+        # Reduced chi-squared
+        y_model = gauss(x_fit, *popt)
+        residuals = y_fit - y_model
+        weights = np.maximum(y_fit, 1)
+        chi2 = np.sum(residuals**2 / weights)
+        ndf = max(len(x_fit) - 3, 1)
+        chi2_red = chi2 / ndf
+
+        # Check if sigma hit the bounds
+        sigma_at_bound = (popt[1] <= sigma_lo + 0.01) or (popt[1] >= sigma_hi - 0.01)
+
+        bkg_mask = (x_fit < popt[0] - 2 * abs(popt[1])) | (
+            x_fit > popt[0] + 2 * abs(popt[1])
+        )
+        if bkg_mask.sum() >= 2:
+            try:
+                bkg_popt, _ = curve_fit(
+                    lin, x_fit[bkg_mask], y_fit[bkg_mask], p0=[0, bkg_est], maxfev=1000
+                )
+                bkg_type = "local"
+            except Exception:
+                bkg_popt = [0, bkg_est]
+                bkg_type = "global"
+        else:
+            bkg_popt = [0, bkg_est]
+            bkg_type = "global"
+
+        return {
+            "popt": tuple(popt),
+            "perr": tuple(perr),
+            "int_lims": (float(x_fit[0]), float(x_fit[-1])),
+            "background": {"type": bkg_type, "popt": tuple(bkg_popt)},
+            "chi2_red": float(chi2_red),
+            "sigma_at_bound": bool(sigma_at_bound),
+            "sigma_lo": float(sigma_lo),
+            "sigma_hi": float(sigma_hi),
+        }
+    except Exception:
+        return None
